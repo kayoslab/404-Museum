@@ -26,3 +26,5 @@
 
 ## US-014: Create floating refresh button
 
+## US-012: Add abandoned and broken historical details
+

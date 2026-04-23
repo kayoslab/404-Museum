@@ -232,14 +232,13 @@
         "No real network failures are required to simulate broken details"
       ],
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-008",
         "US-011"
       ],
       "notes": "Narrative layer.",
-      "status": "in_progress",
-      "claimed_by": "worker-1"
+      "status": "pass"
     },
     {
       "id": "US-013",
@@ -320,7 +319,8 @@
         "US-015"
       ],
       "notes": "Important for social traffic.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-017",
