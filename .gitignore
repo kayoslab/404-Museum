@@ -1,1 +1,4 @@
 LOCK*
+node_modules/
+dist/
+*.local
