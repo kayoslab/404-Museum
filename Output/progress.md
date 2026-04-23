@@ -22,3 +22,5 @@
 
 ## US-010: Render base generated homepage structure
 
+## US-011: Render reusable homepage content modules
+

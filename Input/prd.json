@@ -214,13 +214,12 @@
         "Modules follow the active theme"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-010"
       ],
       "notes": "Split from original large rendering ticket.",
-      "status": "in_progress",
-      "claimed_by": "worker-3"
+      "status": "pass"
     },
     {
       "id": "US-012",
