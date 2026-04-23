@@ -10,3 +10,5 @@
 
 ## US-013: Create floating info button
 
+## US-005: Read and write seed from URL parameters
+

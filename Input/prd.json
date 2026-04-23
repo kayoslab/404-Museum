@@ -92,13 +92,12 @@
         "Opening the same seeded URL in another browser session reproduces identical output"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-004"
       ],
       "notes": "Foundation for reproducibility, refresh, and sharing.",
-      "status": "in_progress",
-      "claimed_by": "worker-1"
+      "status": "pass"
     },
     {
       "id": "US-006",
