@@ -5,6 +5,8 @@ import { archetypes } from './data/archetypes';
 import { regions } from './data/regions';
 import { selectTheme } from './theme-mapper';
 import { generateMetadata } from './generators/metadata-generator';
+import { generateAbandonmentDetails } from './generators/abandonment-generator';
+import type { AbandonmentDetail } from './generators/abandonment-generator';
 
 export interface GeneratedSite {
   readonly seed: string;
@@ -13,6 +15,7 @@ export interface GeneratedSite {
   readonly region: Region;
   readonly theme: Theme;
   readonly metadata: SiteMetadata;
+  readonly abandonmentDetails: readonly AbandonmentDetail[];
 }
 
 export function generateSite(seed: string): GeneratedSite {
@@ -33,6 +36,7 @@ export function generateSite(seed: string): GeneratedSite {
 
   const theme = selectTheme(seed, era);
   const metadata = generateMetadata(seed, { ...era }, { ...archetype }, { ...region });
+  const abandonmentDetails = generateAbandonmentDetails(seed, { ...era }, { ...archetype }, { ...region });
 
-  return { seed, era, archetype, region, theme, metadata };
+  return { seed, era, archetype, region, theme, metadata, abandonmentDetails };
 }

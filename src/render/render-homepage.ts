@@ -5,6 +5,7 @@ import { renderHeader } from './render-header';
 import { renderHero } from './render-hero';
 import { renderFooter } from './render-footer';
 import { selectModules } from './select-modules';
+import { renderAbandonmentDetails } from './render-abandonment-details';
 
 export function renderHomepage(container: HTMLElement, site: GeneratedSite): void {
   container.innerHTML = '';
@@ -24,6 +25,8 @@ export function renderHomepage(container: HTMLElement, site: GeneratedSite): voi
     const rng = createRng(deriveSeed(site.seed, mod.id));
     main.appendChild(mod.render(site, rng));
   }
+
+  renderAbandonmentDetails(site, main);
 
   wrapper.appendChild(main);
   wrapper.appendChild(renderFooter(site));

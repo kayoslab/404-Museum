@@ -2,6 +2,33 @@
 
 exports[`US-010: Render base generated homepage structure > snapshot stability > generateSite snapshot for seed "snap-us010-alpha" 1`] = `
 {
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-partner-logos",
+      "id": "defunct-partner-logo",
+      "label": "In association with Yahoo! GeoCities",
+    },
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Banner image unavailable]",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "deprecated-browser-notice",
+      "label": "Best viewed in Internet Explorer 5.0 at 800x600",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Hosted on Geocities",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Valid HTML 4.01 Transitional",
+    },
+  ],
   "archetype": {
     "compatibleEraIds": [
       "early-web",
@@ -132,6 +159,33 @@ exports[`US-010: Render base generated homepage structure > snapshot stability >
 
 exports[`US-010: Render base generated homepage structure > snapshot stability > generateSite snapshot for seed "snap-us010-beta" 1`] = `
 {
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-counter",
+      "id": "dead-counter",
+      "label": "You are visitor #46338",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Made with Macromedia Dreamweaver",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "deprecated-browser-notice",
+      "label": "This page requires Shockwave Flash",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Valid HTML 4.01 Transitional",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Hosted on Geocities",
+    },
+  ],
   "archetype": {
     "compatibleEraIds": [
       "early-web",
@@ -251,6 +305,33 @@ exports[`US-010: Render base generated homepage structure > snapshot stability >
 
 exports[`US-010: Render base generated homepage structure > snapshot stability > generateSite snapshot for seed "snap-us010-gamma" 1`] = `
 {
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Image not found]",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "deprecated-browser-notice",
+      "label": "Adobe Flash Player required",
+    },
+    {
+      "cssClass": "abandonment-partner-logos",
+      "id": "defunct-partner-logo",
+      "label": "In association with Yahoo! GeoCities",
+    },
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Logo failed to load]",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "stale-news-date",
+      "label": "Last updated: 03/12/2001",
+    },
+  ],
   "archetype": {
     "compatibleEraIds": [
       "early-web",

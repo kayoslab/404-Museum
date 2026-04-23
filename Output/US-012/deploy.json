@@ -1,0 +1,1 @@
+{"decision":"pass","gates_checked":["lint","typecheck","tests"],"failures":[],"notes":"All 14 test files (519 tests) pass, including us-012-abandonment-details.test.ts (70 tests). Lint and typecheck clean. No errors."}
