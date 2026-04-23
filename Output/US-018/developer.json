@@ -1,0 +1,1 @@
+{"summary":"Created vercel.json with static hosting configuration (Vite framework, npm run build, dist output, SPA fallback rewrite) and DEPLOY.md documenting Vercel setup, build steps, and seeded URL behavior. All 624 tests pass including all US-018 acceptance criteria.","files_changed":["vercel.json","DEPLOY.md"]}
