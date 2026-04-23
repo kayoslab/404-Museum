@@ -1,0 +1,1 @@
+{"decision":"pass","gates_checked":["install","typecheck","lint","tests","build"],"failures":[],"notes":"All 20 tests pass, typecheck clean, build produces dist/ successfully. npm install completes with 0 vulnerabilities."}
