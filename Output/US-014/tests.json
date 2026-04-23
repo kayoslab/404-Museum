@@ -1,1 +1,1 @@
-{"test_results":"fail","failures":["src/ui/refresh-button.ts does not exist yet","src/styles/refresh-button.css does not exist yet","main.ts does not import refresh-button module","main.ts does not import refresh-button.css","main.ts does not import generateSeed","main.ts does not contain createRefreshButton"],"failure_source":"tests","tests_added":["tests/us-014-refresh-button.test.ts"],"tests_modified":[]}
+{"test_results":"pass","failures":[],"tests_added":["tests/us-014-refresh-button.test.ts"],"tests_modified":[],"failure_source":null}
