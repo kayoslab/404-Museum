@@ -32,3 +32,5 @@
 
 ## US-017: Add smoke and snapshot tests
 
+## US-018: Deploy static production build
+

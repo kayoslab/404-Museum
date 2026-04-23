@@ -354,12 +354,12 @@
         "Deployment steps are documented"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-017"
       ],
       "notes": "Recommended target: Vercel static hosting.",
-      "status": "available"
+      "status": "pass"
     }
   ]
 }
