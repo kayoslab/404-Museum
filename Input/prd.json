@@ -157,7 +157,8 @@
         "US-007"
       ],
       "notes": "Feeds later rendering tickets.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-009",
@@ -171,13 +172,13 @@
         "Renderer consumes typed theme objects rather than scattered inline styles"
       ],
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-004",
         "US-006"
       ],
       "notes": "Core visual identity system.",
-      "status": "available"
+      "status": "pass"
     },
     {
       "id": "US-010",
