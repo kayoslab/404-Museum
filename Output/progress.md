@@ -16,3 +16,5 @@
 
 ## US-009: Create style theme mapper by era
 
+## US-008: Generate fake site metadata
+

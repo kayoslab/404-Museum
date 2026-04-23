@@ -151,14 +151,13 @@
         "Metadata generation is independent from DOM rendering"
       ],
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-006",
         "US-007"
       ],
       "notes": "Feeds later rendering tickets.",
-      "status": "in_progress",
-      "claimed_by": "worker-3"
+      "status": "pass"
     },
     {
       "id": "US-009",
