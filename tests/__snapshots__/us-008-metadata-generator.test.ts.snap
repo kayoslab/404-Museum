@@ -1,0 +1,353 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: budget-airline with era "portal-era" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "CoastalHop Travel",
+  "statusLabel": "No longer maintained",
+  "summary": "Book cheap flights and holiday packages with CoastalHop Travel.",
+  "tagline": "Fly for less",
+  "yearFounded": 2001,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: budget-airline with region "de-de" 1`] = `
+{
+  "closureReason": "Hosting provider went offline",
+  "siteName": "Jetkraft",
+  "statusLabel": "Shut down by administrator",
+  "summary": "Book cheap flights and holiday packages with Jetkraft.",
+  "tagline": "The affordable way to fly",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: budget-airline with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "TransWing Flights",
+  "statusLabel": "Operations ceased",
+  "summary": "TransWing Flights was your gateway to budget-friendly air travel.",
+  "tagline": "The people's airline",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: budget-airline with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "EuroFlights",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Fly with EuroFlights — low fares to over 40 destinations.",
+  "tagline": "See the world for less",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: budget-airline with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "SmartWay",
+  "statusLabel": "Site decommissioned",
+  "summary": "SmartWay connected travelers to destinations they never expected.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: e-commerce-shop with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "BuyMart Depot",
+  "statusLabel": "Operations ceased",
+  "summary": "BuyMart Depot brought the high street to your browser.",
+  "tagline": "Where value meets variety",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: e-commerce-shop with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "ShopDepot",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Shop ShopDepot for the best prices on electronics and more.",
+  "tagline": "Your online marketplace",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: e-commerce-shop with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "LocalGoods",
+  "statusLabel": "Site decommissioned",
+  "summary": "LocalGoods made online shopping easy, affordable, and fun.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: forum-community with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "ChatTalk Space",
+  "statusLabel": "Operations ceased",
+  "summary": "ChatTalk Space brought together experts and newcomers to discuss what matters.",
+  "tagline": "Community-driven since day one",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: forum-community with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "TalkSpace",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Join the conversation at TalkSpace — pair knowledge and debate.",
+  "tagline": "Discuss. Debate. Discover.",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: forum-community with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "InformedView",
+  "statusLabel": "Site decommissioned",
+  "summary": "InformedView hosted thousands of threads on topics you care about.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: media-startup with era "portal-era" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "DashPad Productions",
+  "statusLabel": "No longer maintained",
+  "summary": "Welcome to DashPad Productions — where content meets community.",
+  "tagline": "Content that connects",
+  "yearFounded": 2001,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: media-startup with region "de-de" 1`] = `
+{
+  "closureReason": "Hosting provider went offline",
+  "siteName": "Tunekraft",
+  "statusLabel": "Shut down by administrator",
+  "summary": "Welcome to Tunekraft — where content meets community.",
+  "tagline": "Media for the modern age",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: media-startup with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "PulseHub Entertainment",
+  "statusLabel": "Operations ceased",
+  "summary": "PulseHub Entertainment brought stories to life through innovative digital media.",
+  "tagline": "Where content comes alive",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: media-startup with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "StreamEntertainment",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Stream, share, and discover with StreamEntertainment — media reimagined.",
+  "tagline": "Watch. Share. Discover.",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: media-startup with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "FreshPop",
+  "statusLabel": "Site decommissioned",
+  "summary": "FreshPop pioneered new ways to experience digital entertainment.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: mmorpg-guild with era "portal-era" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "NightHeart Vanguard",
+  "statusLabel": "No longer maintained",
+  "summary": "Welcome to the NightHeart Vanguard guild hall — glory awaits.",
+  "tagline": "We raid at dawn",
+  "yearFounded": 2001,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: mmorpg-guild with region "de-de" 1`] = `
+{
+  "closureReason": "Hosting provider went offline",
+  "siteName": "Crimsonkraft",
+  "statusLabel": "Shut down by administrator",
+  "summary": "Welcome to the Crimsonkraft guild hall — glory awaits.",
+  "tagline": "Strength in numbers",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: mmorpg-guild with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "IronBlade Brotherhood",
+  "statusLabel": "Operations ceased",
+  "summary": "IronBlade Brotherhood has been raiding since the early days of the server.",
+  "tagline": "The guild that never sleeps",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: mmorpg-guild with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "ShadowBrotherhood",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Join ShadowBrotherhood and conquer the realm with fellow adventurers.",
+  "tagline": "No mercy, no retreat",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: mmorpg-guild with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "SavageWolf",
+  "statusLabel": "Site decommissioned",
+  "summary": "SavageWolf stood as one of the most respected guilds on the server.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: os-vendor with era "portal-era" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "VertexCore Digital",
+  "statusLabel": "No longer maintained",
+  "summary": "Power your workstation with VertexCore Digital — performance meets stability.",
+  "tagline": "Computing reimagined",
+  "yearFounded": 2001,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: os-vendor with region "de-de" 1`] = `
+{
+  "closureReason": "Hosting provider went offline",
+  "siteName": "Fluxkraft",
+  "statusLabel": "Shut down by administrator",
+  "summary": "Power your workstation with Fluxkraft — performance meets stability.",
+  "tagline": "Power meets simplicity",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: os-vendor with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "LogicSoft Works",
+  "statusLabel": "Operations ceased",
+  "summary": "LogicSoft Works delivered secure, reliable computing for businesses worldwide.",
+  "tagline": "The system that works for you",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: os-vendor with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "CyberWorks",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Discover CyberWorks — the OS designed for professionals and creators.",
+  "tagline": "Built for the next generation",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: os-vendor with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "QuantumCode",
+  "statusLabel": "Site decommissioned",
+  "summary": "QuantumCode reimagined what an operating system could be.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: personal-homepage with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "ThePage Portal",
+  "statusLabel": "Operations ceased",
+  "summary": "Hi! This is ThePage Portal, my personal homepage on the web.",
+  "tagline": "Made with love and HTML",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: personal-homepage with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "MyPortal",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "MyPortal is where I share my projects, thoughts, and links.",
+  "tagline": "Best viewed in 800×600",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: personal-homepage with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "RandomPlace",
+  "statusLabel": "Site decommissioned",
+  "summary": "Thanks for visiting RandomPlace — feel free to look around.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: webmail-provider with seed "snap-alpha" 1`] = `
+{
+  "closureReason": "Founder moved on",
+  "siteName": "PostMail Express",
+  "statusLabel": "Operations ceased",
+  "summary": "PostMail Express provided secure webmail trusted by millions of users.",
+  "tagline": "The smarter way to email",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: webmail-provider with seed "snap-beta" 1`] = `
+{
+  "closureReason": "Failed to find product-market fit",
+  "siteName": "MailExpress",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Sign up for MailExpress — fast, reliable, and always free email.",
+  "tagline": "Fast, secure, reliable",
+  "yearFounded": 1997,
+}
+`;
+
+exports[`US-008: Generate fake site metadata > snapshot stability > snapshot: webmail-provider with seed "snap-gamma" 1`] = `
+{
+  "closureReason": "Superseded by competitor",
+  "siteName": "PrivateMessage",
+  "statusLabel": "Site decommissioned",
+  "summary": "PrivateMessage delivered email you could count on, every single day.",
+  "tagline": undefined,
+  "yearFounded": 1999,
+}
+`;

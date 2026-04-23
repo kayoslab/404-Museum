@@ -39,4 +39,13 @@ export interface SeededRandom {
   bool(probability?: number): boolean;
 }
 
+export interface SiteMetadata {
+  readonly siteName: string;
+  readonly tagline: string | undefined;
+  readonly yearFounded: number;
+  readonly statusLabel: string;
+  readonly closureReason: string;
+  readonly summary: string;
+}
+
 export type Seed = string;
