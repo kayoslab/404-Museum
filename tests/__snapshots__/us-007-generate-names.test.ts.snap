@@ -1,0 +1,298 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`US-007: Generate believable fake names > German-flavored names > de-de region produces German-sounding names for multiple archetypes 1`] = `
+[
+  "EuroFly Lines",
+  "Turmfeld Direkt",
+  "AtlasSpan",
+  "Lichtway",
+  "Blitzbund",
+  "Hexdienst",
+  "OpenComputing",
+  "Blitzhaus",
+  "BitBase Software",
+  "VertexData",
+  "Pulsefeld",
+  "Turmden",
+  "Freifeld",
+  "Kreisfeld Technik",
+  "Lichtdeck",
+  "Kreisdienst GmbH",
+  "Sternkeep",
+  "Kreiswerk",
+  "Runezentrum",
+  "Waldkreis Direkt",
+  "Truegrund",
+  "Weltbox",
+  "InboxZone",
+  "Fastkreis",
+  "OpenZone",
+  "Kreiskreis Systeme",
+  "Steintrove",
+  "ShopPick Store",
+  "Kreiskreis",
+  "ClickShop",
+  "ChatHive",
+  "Klarhaus Technik",
+  "Strommarkt Online",
+  "Weltraum Online",
+  "Freifeld Direkt",
+  "AwesomeZone",
+  "TheOnline",
+  "Kerncorner",
+  "RadWeb",
+  "Blitzpunkt",
+]
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: budget-airline with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "budget-airline",
+  "companyName": "CoastalLine",
+  "domain": "coastalline.com",
+  "tagline": "See the world for less",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: budget-airline with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "budget-airline",
+  "companyName": "QuickArc",
+  "domain": "quickarc.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: budget-airline with seed "snap-de" (de-de) 1`] = `
+{
+  "archetype": "budget-airline",
+  "companyName": "Stromexpress",
+  "domain": "stromexpress.de",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: budget-airline with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "budget-airline",
+  "companyName": "RapidStar Aviation",
+  "domain": "rapidstaraviation.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: e-commerce-shop with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "TradeShop",
+  "domain": "tradeshop.com",
+  "tagline": "Your online marketplace",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: e-commerce-shop with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "EverydayVault",
+  "domain": "everydayvault.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: e-commerce-shop with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "NetStore Warehouse",
+  "domain": "netstorewarehouse.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: forum-community with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "forum-community",
+  "companyName": "RootWord",
+  "domain": "rootword.com",
+  "tagline": "Discuss. Debate. Discover.",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: forum-community with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "forum-community",
+  "companyName": "ConnectedNode",
+  "domain": "connectednode.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: forum-community with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "forum-community",
+  "companyName": "MetaVoice Collective",
+  "domain": "metavoicecollective.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: media-startup with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "media-startup",
+  "companyName": "DashTap",
+  "domain": "dashtap.com",
+  "tagline": "Watch. Share. Discover.",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: media-startup with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "media-startup",
+  "companyName": "CloudBay",
+  "domain": "cloudbay.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: media-startup with seed "snap-de" (de-de) 1`] = `
+{
+  "archetype": "media-startup",
+  "companyName": "Stromdeck",
+  "domain": "stromdeck.de",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: media-startup with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "media-startup",
+  "companyName": "SnapBox Content",
+  "domain": "snapboxcontent.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: mmorpg-guild with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "mmorpg-guild",
+  "companyName": "NightClaw",
+  "domain": "nightclaw.com",
+  "tagline": "No mercy, no retreat",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: mmorpg-guild with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "mmorpg-guild",
+  "companyName": "FallenFall",
+  "domain": "fallenfall.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: mmorpg-guild with seed "snap-de" (de-de) 1`] = `
+{
+  "archetype": "mmorpg-guild",
+  "companyName": "Strombane",
+  "domain": "strombane.de",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: mmorpg-guild with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "mmorpg-guild",
+  "companyName": "VoidFang Crusade",
+  "domain": "voidfangcrusade.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: os-vendor with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "VertexSys",
+  "domain": "vertexsys.com",
+  "tagline": "Built for the next generation",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: os-vendor with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "ModularNode",
+  "domain": "modularnode.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: os-vendor with seed "snap-de" (de-de) 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "Stromlab",
+  "domain": "stromlab.de",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: os-vendor with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "ByteTech Platforms",
+  "domain": "bytetechplatforms.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: personal-homepage with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "LittleCorner",
+  "domain": "littlecorner.com",
+  "tagline": "Best viewed in 800×600",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: personal-homepage with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "EpicDen",
+  "domain": "epicden.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: personal-homepage with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "CoolSite Central",
+  "domain": "coolsitecentral.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: webmail-provider with seed "snap-alpha" (en-us) 1`] = `
+{
+  "archetype": "webmail-provider",
+  "companyName": "AllBox",
+  "domain": "allbox.com",
+  "tagline": "Fast, secure, reliable",
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: webmail-provider with seed "snap-beta" (en-us) 1`] = `
+{
+  "archetype": "webmail-provider",
+  "companyName": "SmartPort",
+  "domain": "smartport.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-007: Generate believable fake names > snapshot stability > snapshot: webmail-provider with seed "snap-gamma" (en-us) 1`] = `
+{
+  "archetype": "webmail-provider",
+  "companyName": "MyPost Central",
+  "domain": "mypostcentral.com",
+  "tagline": undefined,
+}
+`;
