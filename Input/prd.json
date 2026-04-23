@@ -32,12 +32,12 @@
         "All scripts run without interactive prompts"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-001"
       ],
       "notes": "Required by most later tickets.",
-      "status": "available"
+      "status": "pass"
     },
     {
       "id": "US-003",
@@ -56,7 +56,8 @@
         "US-001"
       ],
       "notes": "Base structure for all later UI work.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-2"
     },
     {
       "id": "US-004",
@@ -117,7 +118,8 @@
         "US-001"
       ],
       "notes": "No paid APIs or runtime data fetching.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-007",
