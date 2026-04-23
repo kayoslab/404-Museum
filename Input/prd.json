@@ -293,14 +293,13 @@
         "Visible success or error feedback is shown"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-003",
         "US-005"
       ],
       "notes": "Virality feature.",
-      "status": "in_progress",
-      "claimed_by": "worker-1"
+      "status": "pass"
     },
     {
       "id": "US-016",
