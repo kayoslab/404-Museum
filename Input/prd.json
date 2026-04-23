@@ -200,7 +200,8 @@
         "US-009"
       ],
       "notes": "Core user-visible experience.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-011",
