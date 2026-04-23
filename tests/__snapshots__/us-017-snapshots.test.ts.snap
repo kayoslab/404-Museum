@@ -1,0 +1,391 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with early-web/budget-airline matches snapshot 1`] = `
+{
+  "closureReason": "Ran out of funding",
+  "siteName": "ApexExpress",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "ApexExpress connected travelers to destinations they never expected.",
+  "tagline": undefined,
+  "yearFounded": 1996,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with startup-minimalism/media-startup matches snapshot 1`] = `
+{
+  "closureReason": "Ran out of funding",
+  "siteName": "Freigrund Technik",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "Freigrund Technik pioneered new ways to experience digital entertainment.",
+  "tagline": "Where content comes alive",
+  "yearFounded": 2015,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with web2/mmorpg-guild matches snapshot 1`] = `
+{
+  "closureReason": "Ran out of funding",
+  "siteName": "EmberKnights",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "EmberKnights stood as one of the most respected guilds on the server.",
+  "tagline": undefined,
+  "yearFounded": 2008,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with early-web/budget-airline matches snapshot 1`] = `
+{
+  "closureReason": "Regulatory changes made operations unviable",
+  "siteName": "PrimeRoute",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "PrimeRoute offered affordable flights across Europe and beyond.",
+  "tagline": "Fly for less",
+  "yearFounded": 1999,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with startup-minimalism/media-startup matches snapshot 1`] = `
+{
+  "closureReason": "Regulatory changes made operations unviable",
+  "siteName": "FreshHub",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "FreshHub was a digital media platform for independent creators.",
+  "tagline": "Create without limits",
+  "yearFounded": 2019,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with web2/mmorpg-guild matches snapshot 1`] = `
+{
+  "closureReason": "Regulatory changes made operations unviable",
+  "siteName": "NobleFury",
+  "statusLabel": "This site has been permanently closed",
+  "summary": "NobleFury — a legendary guild forged in the fires of battle.",
+  "tagline": "We raid at dawn",
+  "yearFounded": 2013,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with early-web/budget-airline matches snapshot 1`] = `
+{
+  "closureReason": "Merged with parent company",
+  "siteName": "DirectWay",
+  "statusLabel": "Operations ceased",
+  "summary": "DirectWay connected travelers to destinations they never expected.",
+  "tagline": "Fly for less",
+  "yearFounded": 1996,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with startup-minimalism/media-startup matches snapshot 1`] = `
+{
+  "closureReason": "Merged with parent company",
+  "siteName": "WavePad",
+  "statusLabel": "Operations ceased",
+  "summary": "WavePad pioneered new ways to experience digital entertainment.",
+  "tagline": "The future of entertainment",
+  "yearFounded": 2015,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with web2/mmorpg-guild matches snapshot 1`] = `
+{
+  "closureReason": "Merged with parent company",
+  "siteName": "AncientWolf",
+  "statusLabel": "Operations ceased",
+  "summary": "AncientWolf stood as one of the most respected guilds on the server.",
+  "tagline": "We raid at dawn",
+  "yearFounded": 2009,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-1" and archetype "e-commerce-shop" matches snapshot 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "DiscountPick",
+  "domain": "discountpick.com",
+  "tagline": "Your online marketplace",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-1" and archetype "os-vendor" matches snapshot 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "IntegratedNet",
+  "domain": "integratednet.com",
+  "tagline": "Built for the next generation",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-1" and archetype "personal-homepage" matches snapshot 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "AwesomeZone",
+  "domain": "awesomezone.com",
+  "tagline": "Best viewed in 800×600",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-2" and archetype "e-commerce-shop" matches snapshot 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "SuperTrove",
+  "domain": "supertrove.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-2" and archetype "os-vendor" matches snapshot 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "HexWorks",
+  "domain": "hexworks.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-2" and archetype "personal-homepage" matches snapshot 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "AboutLair",
+  "domain": "aboutlair.com",
+  "tagline": undefined,
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-3" and archetype "e-commerce-shop" matches snapshot 1`] = `
+{
+  "archetype": "e-commerce-shop",
+  "companyName": "TrustedFind",
+  "domain": "trustedfind.com",
+  "tagline": "Shopping made effortless",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-3" and archetype "os-vendor" matches snapshot 1`] = `
+{
+  "archetype": "os-vendor",
+  "companyName": "SolidBase",
+  "domain": "solidbase.com",
+  "tagline": "Rethinking the operating system",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateName snapshots > generateName with seed "us017-name-3" and archetype "personal-homepage" matches snapshot 1`] = `
+{
+  "archetype": "personal-homepage",
+  "companyName": "DigitalSpace",
+  "domain": "digitalspace.com",
+  "tagline": "Sign my guestbook!",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > generateSite("us017-snap-alpha") matches snapshot 1`] = `
+{
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Logo failed to load]",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Featured on TechCrunch",
+    },
+  ],
+  "archetypeId": "e-commerce-shop",
+  "eraId": "startup-minimalism",
+  "metadata": {
+    "closureReason": "Key team members departed",
+    "siteName": "TrustedStash",
+    "statusLabel": "No longer maintained",
+    "summary": "Find everything you need at TrustedStash — fast shipping included.",
+    "tagline": undefined,
+    "yearFounded": 2019,
+  },
+  "regionId": "en-gb",
+  "themeId": "startup-minimalism",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > generateSite("us017-snap-beta") matches snapshot 1`] = `
+{
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-badge",
+      "id": "outdated-copyright",
+      "label": "Copyright 2004 — All rights reserved",
+    },
+    {
+      "cssClass": "abandonment-partner-logos",
+      "id": "defunct-partner-logo",
+      "label": "Certified by NexusTrust Authority",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "expired-ssl-notice",
+      "label": "Security certificate expired on 08/28/2006",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "stale-news-date",
+      "label": "Last updated: 11/10/2013",
+    },
+  ],
+  "archetypeId": "media-startup",
+  "eraId": "alt-timeline",
+  "metadata": {
+    "closureReason": "Company dissolved",
+    "siteName": "FeedMix Digital",
+    "statusLabel": "Account suspended",
+    "summary": "Stream, share, and discover with FeedMix Digital — media reimagined.",
+    "tagline": "Where content comes alive",
+    "yearFounded": 2016,
+  },
+  "regionId": "en-us",
+  "themeId": "alt-timeline",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > generateSite("us017-snap-delta") matches snapshot 1`] = `
+{
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-counter",
+      "id": "dead-counter",
+      "label": "Join 1989 others on the waitlist",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "expired-ssl-notice",
+      "label": "Security certificate expired on 08/14/2015",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Verified on Product Hunt",
+    },
+  ],
+  "archetypeId": "budget-airline",
+  "eraId": "startup-minimalism",
+  "metadata": {
+    "closureReason": "Acquired and shut down",
+    "siteName": "SwiftSpan",
+    "statusLabel": "This site has been permanently closed",
+    "summary": "SwiftSpan connected travelers to destinations they never expected.",
+    "tagline": "Low fares, high standards",
+    "yearFounded": 2018,
+  },
+  "regionId": "de-de",
+  "themeId": "startup-minimalism",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > generateSite("us017-snap-epsilon") matches snapshot 1`] = `
+{
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-badge",
+      "id": "stale-news-date",
+      "label": "Last updated: 09/17/2019",
+    },
+    {
+      "cssClass": "abandonment-partner-logos",
+      "id": "defunct-partner-logo",
+      "label": "Certified by NexusTrust Authority",
+    },
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Image not found]",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Rendered via subether relay v0.4",
+    },
+  ],
+  "archetypeId": "webmail-provider",
+  "eraId": "alt-timeline",
+  "metadata": {
+    "closureReason": "Superseded by competitor",
+    "siteName": "Freigrund",
+    "statusLabel": "This site has been permanently closed",
+    "summary": "Sign up for Freigrund — fast, reliable, and always free email.",
+    "tagline": "The smarter way to email",
+    "yearFounded": 2005,
+  },
+  "regionId": "de-de",
+  "themeId": "alt-timeline",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > generateSite("us017-snap-gamma") matches snapshot 1`] = `
+{
+  "abandonmentDetails": [
+    {
+      "cssClass": "abandonment-missing-asset",
+      "id": "missing-asset-placeholder",
+      "label": "[Image not found]",
+    },
+    {
+      "cssClass": "abandonment-browser-notice",
+      "id": "expired-ssl-notice",
+      "label": "Security certificate expired on 06/20/2009",
+    },
+    {
+      "cssClass": "abandonment-badge",
+      "id": "broken-badge",
+      "label": "Rendered via subether relay v0.4",
+    },
+  ],
+  "archetypeId": "personal-homepage",
+  "eraId": "alt-timeline",
+  "metadata": {
+    "closureReason": "Acquired and shut down",
+    "siteName": "FunPad",
+    "statusLabel": "Domain expired",
+    "summary": "FunPad is where I share my projects, thoughts, and links.",
+    "tagline": "Thanks for stopping by!",
+    "yearFounded": 2011,
+  },
+  "regionId": "en-gb",
+  "themeId": "alt-timeline",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > selectTheme snapshots > selectTheme for era "alt-timeline" matches snapshot 1`] = `
+{
+  "label": "Strange Alternate Timeline",
+  "themeId": "alt-timeline",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > selectTheme snapshots > selectTheme for era "early-web" matches snapshot 1`] = `
+{
+  "label": "Early Web",
+  "themeId": "early-web",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > selectTheme snapshots > selectTheme for era "portal-era" matches snapshot 1`] = `
+{
+  "label": "Portal Era",
+  "themeId": "portal-era",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > selectTheme snapshots > selectTheme for era "startup-minimalism" matches snapshot 1`] = `
+{
+  "label": "Startup Minimalism",
+  "themeId": "startup-minimalism",
+}
+`;
+
+exports[`US-017: Snapshot regression tests > selectTheme snapshots > selectTheme for era "web2" matches snapshot 1`] = `
+{
+  "label": "Web 2.0",
+  "themeId": "web2",
+}
+`;
