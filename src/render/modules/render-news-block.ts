@@ -1,6 +1,11 @@
 import type { GeneratedSite } from '../../domain/generate-site';
 import type { SeededRandom } from '../../domain/types';
-import { newsHeadlines, newsSnippets, moduleHeadingOverrides } from '../../domain/data/module-fragments';
+import {
+  eraNewsPools,
+  archetypeNewsHeadlines,
+  archetypeNewsSnippets,
+  moduleHeadingOverrides,
+} from '../../domain/data/module-fragments';
 
 function localizeHeading(heading: string, site: GeneratedSite): string {
   const overrides = moduleHeadingOverrides[site.region.id];
@@ -11,16 +16,27 @@ export function renderNewsBlock(site: GeneratedSite, rng: SeededRandom): HTMLEle
   const section = document.createElement('section');
   section.className = 'module-news-block';
 
+  const pool = eraNewsPools[site.era.id];
+  const heading = pool?.heading ?? 'Latest News';
+
   const h2 = document.createElement('h2');
-  h2.textContent = localizeHeading('Latest News', site);
+  h2.textContent = localizeHeading(heading, site);
   section.appendChild(h2);
 
   const list = document.createElement('ul');
   list.className = 'news-list';
 
+  // Build headline pool: era headlines + archetype-specific headlines
+  const eraHeadlines = pool ? [...pool.headlines] : [];
+  const archHeadlines = archetypeNewsHeadlines[site.archetype.id] ?? [];
+  const allHeadlines = rng.shuffle([...eraHeadlines, ...archHeadlines]);
+
+  // Build snippet pool: era snippets + archetype-specific snippets
+  const eraSnippets = pool ? [...pool.snippets] : [];
+  const archSnippets = archetypeNewsSnippets[site.archetype.id] ?? [];
+  const allSnippets = rng.shuffle([...eraSnippets, ...archSnippets]);
+
   const count = rng.int(3, 5);
-  const headlines = rng.shuffle([...newsHeadlines]);
-  const snippets = rng.shuffle([...newsSnippets]);
 
   for (let i = 0; i < count; i++) {
     const li = document.createElement('li');
@@ -34,11 +50,11 @@ export function renderNewsBlock(site: GeneratedSite, rng: SeededRandom): HTMLEle
     li.appendChild(date);
 
     const headline = document.createElement('h3');
-    headline.textContent = headlines[i % headlines.length]!;
+    headline.textContent = allHeadlines[i % allHeadlines.length]!;
     li.appendChild(headline);
 
     const snippet = document.createElement('p');
-    snippet.textContent = snippets[i % snippets.length]!;
+    snippet.textContent = allSnippets[i % allSnippets.length]!;
     li.appendChild(snippet);
 
     list.appendChild(li);
