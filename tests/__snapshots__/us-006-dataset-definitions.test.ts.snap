@@ -1,0 +1,391 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`US-006: Alternate timeline dataset definitions > snapshot stability > archetypes dataset matches snapshot 1`] = `
+[
+  {
+    "compatibleEraIds": [
+      "early-web",
+      "portal-era",
+      "web2",
+      "startup-minimalism",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A low-cost carrier homepage with flight search and garish promotions",
+    "id": "budget-airline",
+    "label": "Budget Airline",
+  },
+  {
+    "compatibleEraIds": [
+      "early-web",
+      "portal-era",
+      "web2",
+      "alt-timeline",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A forgotten operating system company with downloads and feature tours",
+    "id": "os-vendor",
+    "label": "Operating System Vendor",
+  },
+  {
+    "compatibleEraIds": [
+      "web2",
+      "startup-minimalism",
+      "alt-timeline",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A digital media or streaming platform that never quite launched",
+    "id": "media-startup",
+    "label": "Media Startup",
+  },
+  {
+    "compatibleEraIds": [
+      "early-web",
+      "portal-era",
+      "web2",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A fan-run guild or clan homepage with member rosters and raid schedules",
+    "id": "mmorpg-guild",
+    "label": "MMORPG Guild Page",
+  },
+  {
+    "compatibleEraIds": [
+      "portal-era",
+      "web2",
+      "alt-timeline",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A free email service with storage counters and inbox previews",
+    "id": "webmail-provider",
+    "label": "Webmail Provider",
+  },
+  {
+    "compatibleEraIds": [
+      "portal-era",
+      "web2",
+      "startup-minimalism",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "An online retail store with product listings and shopping cart",
+    "id": "e-commerce-shop",
+    "label": "E-Commerce Shop",
+  },
+  {
+    "compatibleEraIds": [
+      "early-web",
+      "portal-era",
+      "web2",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A topic-based discussion board with threads and user profiles",
+    "id": "forum-community",
+    "label": "Forum Community",
+  },
+  {
+    "compatibleEraIds": [
+      "early-web",
+      "portal-era",
+      "web2",
+      "alt-timeline",
+    ],
+    "compatibleRegionIds": [
+      "en-us",
+      "de-de",
+      "en-gb",
+    ],
+    "description": "A hobbyist personal page with links, interests, and a guestbook",
+    "id": "personal-homepage",
+    "label": "Personal Homepage",
+  },
+]
+`;
+
+exports[`US-006: Alternate timeline dataset definitions > snapshot stability > eras dataset matches snapshot 1`] = `
+[
+  {
+    "designCues": {
+      "colors": [
+        "#000080",
+        "#C0C0C0",
+        "#FFFF00",
+        "#FF00FF",
+        "#008080",
+      ],
+      "layoutPatterns": [
+        "single-column",
+        "table-layout",
+        "frames",
+      ],
+      "typography": [
+        "Times New Roman",
+        "Comic Sans MS",
+        "Courier New",
+      ],
+      "uiElements": [
+        "marquee",
+        "bevel-buttons",
+        "horizontal-rule",
+        "animated-gifs",
+        "hit-counter",
+      ],
+    },
+    "id": "early-web",
+    "label": "Early Web",
+    "vocabularyCues": [
+      "under construction",
+      "welcome to my homepage",
+      "guestbook",
+      "webring",
+      "best viewed in",
+      "click here",
+      "last updated",
+      "site map",
+    ],
+    "yearEnd": 1999,
+    "yearStart": 1995,
+  },
+  {
+    "designCues": {
+      "colors": [
+        "#336699",
+        "#FF6600",
+        "#FFFFFF",
+        "#EEEEEE",
+        "#003366",
+      ],
+      "layoutPatterns": [
+        "three-column",
+        "portal-grid",
+        "sidebar-nav",
+      ],
+      "typography": [
+        "Verdana",
+        "Arial",
+        "Tahoma",
+      ],
+      "uiElements": [
+        "dropdown-menus",
+        "search-bar",
+        "tabbed-content",
+        "visitor-counter",
+        "breadcrumbs",
+      ],
+    },
+    "id": "portal-era",
+    "label": "Portal Era",
+    "vocabularyCues": [
+      "powered by",
+      "RSS feed",
+      "add to favorites",
+      "printer-friendly",
+      "sign up free",
+      "community",
+      "forums",
+      "newsletter",
+    ],
+    "yearEnd": 2006,
+    "yearStart": 2000,
+  },
+  {
+    "designCues": {
+      "colors": [
+        "#4A90D9",
+        "#F5F5F5",
+        "#333333",
+        "#5CB85C",
+        "#FF9900",
+      ],
+      "layoutPatterns": [
+        "two-column",
+        "hero-banner",
+        "card-grid",
+      ],
+      "typography": [
+        "Lucida Grande",
+        "Helvetica Neue",
+        "Georgia",
+      ],
+      "uiElements": [
+        "glossy-buttons",
+        "rounded-corners",
+        "star-ratings",
+        "tag-clouds",
+        "download-badges",
+      ],
+    },
+    "id": "web2",
+    "label": "Web 2.0",
+    "vocabularyCues": [
+      "beta",
+      "invite only",
+      "social",
+      "share",
+      "widget",
+      "mashup",
+      "cloud",
+      "ajax-powered",
+    ],
+    "yearEnd": 2013,
+    "yearStart": 2007,
+  },
+  {
+    "designCues": {
+      "colors": [
+        "#FFFFFF",
+        "#222222",
+        "#00B4D8",
+        "#FF6B6B",
+        "#2ECC71",
+      ],
+      "layoutPatterns": [
+        "single-page",
+        "hero-header",
+        "full-bleed-sections",
+      ],
+      "typography": [
+        "Open Sans",
+        "Montserrat",
+        "Lato",
+        "Roboto",
+      ],
+      "uiElements": [
+        "hamburger-menu",
+        "flat-buttons",
+        "ghost-buttons",
+        "parallax-scroll",
+        "sticky-nav",
+      ],
+    },
+    "id": "startup-minimalism",
+    "label": "Startup Minimalism",
+    "vocabularyCues": [
+      "disrupting",
+      "reimagined",
+      "seamless",
+      "curated",
+      "artisanal",
+      "pivot",
+      "ecosystem",
+      "get started",
+    ],
+    "yearEnd": 2019,
+    "yearStart": 2014,
+  },
+  {
+    "designCues": {
+      "colors": [
+        "#8B5CF6",
+        "#0D9488",
+        "#D97706",
+        "#1E293B",
+        "#F0FDF4",
+      ],
+      "layoutPatterns": [
+        "asymmetric-grid",
+        "circular-nav",
+        "nested-frames",
+      ],
+      "typography": [
+        "Futura",
+        "Palatino",
+        "Consolas",
+        "Impact",
+      ],
+      "uiElements": [
+        "skeuomorphic-toggles",
+        "custom-cursors",
+        "ambient-backgrounds",
+        "ticker-bars",
+        "mood-indicators",
+      ],
+    },
+    "id": "alt-timeline",
+    "label": "Strange Alternate Timeline",
+    "vocabularyCues": [
+      "hyperportal",
+      "netspace",
+      "cyberdeck",
+      "uplink",
+      "datastream",
+      "mesh network",
+      "virtual plaza",
+      "digital atelier",
+    ],
+    "yearEnd": 2020,
+    "yearStart": 1998,
+  },
+]
+`;
+
+exports[`US-006: Alternate timeline dataset definitions > snapshot stability > regions dataset matches snapshot 1`] = `
+[
+  {
+    "currencySymbol": "$",
+    "id": "en-us",
+    "label": "United States",
+    "language": "en",
+    "tld": ".com",
+    "vocabularyOverrides": {},
+  },
+  {
+    "currencySymbol": "€",
+    "id": "de-de",
+    "label": "Germany",
+    "language": "de",
+    "tld": ".de",
+    "vocabularyOverrides": {
+      "About": "Über uns",
+      "Contact": "Kontakt",
+      "Download": "Herunterladen",
+      "Home": "Startseite",
+      "Legal": "Impressum",
+      "Login": "Anmelden",
+      "News": "Nachrichten",
+      "Privacy": "Datenschutz",
+      "Register": "Registrieren",
+      "Search": "Suche",
+    },
+  },
+  {
+    "currencySymbol": "£",
+    "id": "en-gb",
+    "label": "United Kingdom",
+    "language": "en",
+    "tld": ".co.uk",
+    "vocabularyOverrides": {
+      "Center": "Centre",
+      "Color": "Colour",
+      "Favorite": "Favourite",
+      "License": "Licence",
+    },
+  },
+]
+`;
