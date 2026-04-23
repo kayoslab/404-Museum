@@ -248,10 +248,10 @@ describe("US-008: Generate fake site metadata", () => {
   });
 
   // --------------------------------------------------------------------------
-  // Summary is short — homepage-ready copy between 10–200 chars
+  // Summary is homepage-ready copy between 10–500 chars
   // --------------------------------------------------------------------------
   describe("summary length", () => {
-    it("summary is between 10 and 200 characters for all archetypes", async () => {
+    it("summary is between 10 and 500 characters for all archetypes", async () => {
       const generateMetadata = await loadGenerator();
       const { eras, archetypes, regions } = await loadData();
 
@@ -259,7 +259,7 @@ describe("US-008: Generate fake site metadata", () => {
         for (let i = 0; i < 5; i++) {
           const result = generateMetadata(`sumlen-${arch.id}-${i}`, eras[0]!, arch, regions[0]!);
           expect(result.summary.length).toBeGreaterThanOrEqual(10);
-          expect(result.summary.length).toBeLessThanOrEqual(200);
+          expect(result.summary.length).toBeLessThanOrEqual(500);
         }
       }
     });

@@ -2,10 +2,10 @@
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with early-web/budget-airline matches snapshot 1`] = `
 {
-  "closureReason": "Ran out of funding",
+  "closureReason": "Superseded by competitor",
   "siteName": "ApexExpress",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "ApexExpress connected travelers to destinations they never expected.",
+  "statusLabel": "Domain expired",
+  "summary": "Before the big carriers dropped their prices, ApexExpress filled the gap. Students, retirees, and weekend travelers packed its flights, drawn by fares that seemed too good to be real — and occasionally were.",
   "tagline": undefined,
   "yearFounded": 1996,
 }
@@ -13,10 +13,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with startup-minimalism/media-startup matches snapshot 1`] = `
 {
-  "closureReason": "Ran out of funding",
+  "closureReason": "Superseded by competitor",
   "siteName": "Freigrund Technik",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "Freigrund Technik pioneered new ways to experience digital entertainment.",
+  "statusLabel": "Domain expired",
+  "summary": "The pitch was simple: Freigrund Technik would treat creators like partners, not products. Monthly reports showed exactly where revenue came from, and the 85/15 split was the best in the industry while it lasted.",
   "tagline": "Where content comes alive",
   "yearFounded": 2015,
 }
@@ -24,10 +24,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-1") with web2/mmorpg-guild matches snapshot 1`] = `
 {
-  "closureReason": "Ran out of funding",
+  "closureReason": "Superseded by competitor",
   "siteName": "EmberKnights",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "EmberKnights stood as one of the most respected guilds on the server.",
+  "statusLabel": "Domain expired",
+  "summary": "The EmberKnights forums were almost as famous as the guild itself. Recruitment threads turned into essays, boss kill posts became short stories, and the off-topic section had a cult following.",
   "tagline": undefined,
   "yearFounded": 2008,
 }
@@ -35,10 +35,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with early-web/budget-airline matches snapshot 1`] = `
 {
-  "closureReason": "Regulatory changes made operations unviable",
+  "closureReason": "Shut down after data breach incident",
   "siteName": "PrimeRoute",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "PrimeRoute offered affordable flights across Europe and beyond.",
+  "statusLabel": "Domain expired",
+  "summary": "PrimeRoute offered affordable flights across Europe and beyond. At its peak, the airline served over 40 destinations from three hub airports and was known for its aggressive last-minute deals.",
   "tagline": "Fly for less",
   "yearFounded": 1999,
 }
@@ -46,10 +46,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with startup-minimalism/media-startup matches snapshot 1`] = `
 {
-  "closureReason": "Regulatory changes made operations unviable",
+  "closureReason": "Shut down after data breach incident",
   "siteName": "FreshHub",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "FreshHub was a digital media platform for independent creators.",
+  "statusLabel": "Domain expired",
+  "summary": "FreshHub was a digital media platform for independent creators. The service offered ad-free hosting, audience analytics, and a revenue-sharing model that attracted thousands of podcasters and video essayists before funding dried up.",
   "tagline": "Create without limits",
   "yearFounded": 2019,
 }
@@ -57,10 +57,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-2") with web2/mmorpg-guild matches snapshot 1`] = `
 {
-  "closureReason": "Regulatory changes made operations unviable",
+  "closureReason": "Shut down after data breach incident",
   "siteName": "NobleFury",
-  "statusLabel": "This site has been permanently closed",
-  "summary": "NobleFury — a legendary guild forged in the fires of battle.",
+  "statusLabel": "Domain expired",
+  "summary": "NobleFury — a legendary guild forged in the fires of battle. Founded during the first month of the server's launch, the guild grew from five friends in a dorm room to over two hundred active raiders.",
   "tagline": "We raid at dawn",
   "yearFounded": 2013,
 }
@@ -68,10 +68,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with early-web/budget-airline matches snapshot 1`] = `
 {
-  "closureReason": "Merged with parent company",
+  "closureReason": "Hosting provider went offline",
   "siteName": "DirectWay",
-  "statusLabel": "Operations ceased",
-  "summary": "DirectWay connected travelers to destinations they never expected.",
+  "statusLabel": "Content removed at owner's request",
+  "summary": "Before the big carriers dropped their prices, DirectWay filled the gap. Students, retirees, and weekend travelers packed its flights, drawn by fares that seemed too good to be real — and occasionally were.",
   "tagline": "Fly for less",
   "yearFounded": 1996,
 }
@@ -79,10 +79,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with startup-minimalism/media-startup matches snapshot 1`] = `
 {
-  "closureReason": "Merged with parent company",
+  "closureReason": "Hosting provider went offline",
   "siteName": "WavePad",
-  "statusLabel": "Operations ceased",
-  "summary": "WavePad pioneered new ways to experience digital entertainment.",
+  "statusLabel": "Content removed at owner's request",
+  "summary": "The pitch was simple: WavePad would treat creators like partners, not products. Monthly reports showed exactly where revenue came from, and the 85/15 split was the best in the industry while it lasted.",
   "tagline": "The future of entertainment",
   "yearFounded": 2015,
 }
@@ -90,10 +90,10 @@ exports[`US-017: Snapshot regression tests > generateMetadata snapshots > genera
 
 exports[`US-017: Snapshot regression tests > generateMetadata snapshots > generateMetadata("us017-meta-3") with web2/mmorpg-guild matches snapshot 1`] = `
 {
-  "closureReason": "Merged with parent company",
+  "closureReason": "Hosting provider went offline",
   "siteName": "AncientWolf",
-  "statusLabel": "Operations ceased",
-  "summary": "AncientWolf stood as one of the most respected guilds on the server.",
+  "statusLabel": "Content removed at owner's request",
+  "summary": "The AncientWolf forums were almost as famous as the guild itself. Recruitment threads turned into essays, boss kill posts became short stories, and the off-topic section had a cult following.",
   "tagline": "We raid at dawn",
   "yearFounded": 2009,
 }
@@ -197,10 +197,10 @@ exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > g
   "archetypeId": "e-commerce-shop",
   "eraId": "startup-minimalism",
   "metadata": {
-    "closureReason": "Key team members departed",
+    "closureReason": "Could not compete with free alternatives",
     "siteName": "TrustedStash",
-    "statusLabel": "No longer maintained",
-    "summary": "Find everything you need at TrustedStash — fast shipping included.",
+    "statusLabel": "Account suspended",
+    "summary": "TrustedStash was one of the first online shops to offer a no-questions-asked return window of sixty days. The logistics were a nightmare, but the trust it built with customers was worth it.",
     "tagline": undefined,
     "yearFounded": 2019,
   },
@@ -236,10 +236,10 @@ exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > g
   "archetypeId": "media-startup",
   "eraId": "alt-timeline",
   "metadata": {
-    "closureReason": "Company dissolved",
+    "closureReason": "Key team members departed",
     "siteName": "FeedMix Digital",
-    "statusLabel": "Account suspended",
-    "summary": "Stream, share, and discover with FeedMix Digital — media reimagined.",
+    "statusLabel": "Site decommissioned",
+    "summary": "FeedMix Digital brought stories to life through innovative digital media. Its signature feature was a collaborative editing suite that let multiple creators remix and annotate each other's work in real time.",
     "tagline": "Where content comes alive",
     "yearFounded": 2016,
   },
@@ -273,7 +273,7 @@ exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > g
     "closureReason": "Acquired and shut down",
     "siteName": "SwiftSpan",
     "statusLabel": "This site has been permanently closed",
-    "summary": "SwiftSpan connected travelers to destinations they never expected.",
+    "summary": "SwiftSpan ran flights out of secondary airports most people had never heard of. The bus ride to the terminal was part of the adventure, and somehow that became the brand.",
     "tagline": "Low fares, high standards",
     "yearFounded": 2018,
   },
@@ -309,10 +309,10 @@ exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > g
   "archetypeId": "webmail-provider",
   "eraId": "alt-timeline",
   "metadata": {
-    "closureReason": "Superseded by competitor",
+    "closureReason": "Company dissolved",
     "siteName": "Freigrund",
-    "statusLabel": "This site has been permanently closed",
-    "summary": "Sign up for Freigrund — fast, reliable, and always free email.",
+    "statusLabel": "Domain expired",
+    "summary": "Freigrund provided secure webmail trusted by millions of users. Its server-side spam filtering was considered best-in-class, and the clean interface loaded quickly even on dial-up connections.",
     "tagline": "The smarter way to email",
     "yearFounded": 2005,
   },
@@ -343,10 +343,10 @@ exports[`US-017: Snapshot regression tests > generateSite pipeline snapshots > g
   "archetypeId": "personal-homepage",
   "eraId": "alt-timeline",
   "metadata": {
-    "closureReason": "Acquired and shut down",
+    "closureReason": "Ran out of funding",
     "siteName": "FunPad",
-    "statusLabel": "Domain expired",
-    "summary": "FunPad is where I share my projects, thoughts, and links.",
+    "statusLabel": "Service discontinued",
+    "summary": "Hi! This is FunPad, my personal homepage on the web. You will find my resume, a collection of photography from my trips, and a blog I started and then mostly forgot about.",
     "tagline": "Thanks for stopping by!",
     "yearFounded": 2011,
   },

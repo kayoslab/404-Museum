@@ -11,4 +11,6 @@ export {
 } from "./metadata-fragments";
 export { abandonmentFragments } from "./abandonment-fragments";
 export type { AbandonmentFragment } from "./abandonment-fragments";
+export { backgroundPatternsByEra } from "./background-patterns";
+export type { BackgroundPattern } from "./background-patterns";
 export type { Era, Region, Archetype, DesignCues } from "../types";

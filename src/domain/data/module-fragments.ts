@@ -14,6 +14,15 @@ export const featureNames = [
   'Bulk Import',
   'Activity Log',
   'Smart Filters',
+  'Scheduled Reports',
+  'White-Label Branding',
+  'Webhook Integration',
+  'Encrypted Storage',
+  'Granular Permissions',
+  'Mobile Companion App',
+  'Drag-and-Drop Builder',
+  'Custom Workflows',
+  'Usage Analytics',
 ] as const;
 
 export const featureDescriptions = [
@@ -32,6 +41,15 @@ export const featureDescriptions = [
   'Migrate your existing data with ease.',
   'Track every change and who made it.',
   'Narrow down results with intelligent filtering.',
+  'Receive automated summaries delivered straight to your inbox on a schedule you choose.',
+  'Present the product under your own brand with custom logos, colors, and domain.',
+  'Connect to external services and trigger actions based on events in real time.',
+  'Your data is encrypted at rest and in transit using industry-standard protocols.',
+  'Define exactly who can view, edit, or delete resources at every level of your organization.',
+  'Stay productive on the go with a native app that syncs with your desktop workspace.',
+  'Build pages, forms, and dashboards visually without writing a single line of code.',
+  'Automate repetitive tasks by chaining actions into reusable, shareable workflows.',
+  'Understand how your team uses the platform with detailed charts and exportable reports.',
 ] as const;
 
 export const newsHeadlines = [
@@ -47,6 +65,18 @@ export const newsHeadlines = [
   'New Regional Office Opening in Frankfurt',
   'Mobile App Update Available on All Platforms',
   'We Are Hiring — Join Our Growing Team',
+  'Important: Terms of Service Update Effective Next Month',
+  'Celebrating 50,000 Registered Users',
+  'Downtime Post-Mortem: What Went Wrong on Tuesday',
+  'Feature Spotlight: The New Dashboard Explained',
+  'Community Moderator Applications Now Open',
+  'End-of-Year Recap: Our Biggest Milestones',
+  'Founder Letter: Looking Back and Moving Forward',
+  'API v2 Deprecation Notice — Please Migrate by March',
+  'Guest Post: How One User Built a Business on Our Platform',
+  'Localization Update: German and French Now Supported',
+  'Weekend Hackathon Results and Winners Announced',
+  'Service Disruption Resolved — Full Timeline Inside',
 ] as const;
 
 export const newsSnippets = [
@@ -60,6 +90,16 @@ export const newsSnippets = [
   'Performance benchmarks show a 40% improvement.',
   'Contact support if you experience any issues.',
   'This change affects all users on the standard plan.',
+  'We have been working on this behind the scenes for several months and are proud to finally share it with you.',
+  'After careful consideration, the team has decided to move forward with this change starting next quarter.',
+  'A big thank you to our beta testers who helped us catch several critical issues before launch.',
+  'We know this has been a long-requested feature, and we are glad to deliver it at last.',
+  'Existing users will be migrated automatically. No action is required on your end.',
+  'Full technical documentation is available in the developer section of our knowledge base.',
+  'If you have questions, our support team is available Monday through Friday from 9 to 17 CET.',
+  'This update addresses several issues reported by the community over the past few weeks.',
+  'We are still evaluating the long-term roadmap and will share more details as plans solidify.',
+  'Please note that this is a breaking change for users on legacy API versions.',
 ] as const;
 
 export const testimonialQuotes = [
@@ -75,6 +115,14 @@ export const testimonialQuotes = [
   'Intuitive interface — even our least technical staff love it.',
   'Handles our scale with no issues whatsoever.',
   'The export feature alone saved us dozens of hours.',
+  'We evaluated six competitors before choosing this. No regrets — it has exceeded every expectation we had going in.',
+  'Onboarding our team of thirty took an afternoon. By the end of the week, nobody remembered how we managed without it.',
+  'I was skeptical at first, but the trial converted me. The attention to detail in the UI is something you rarely see.',
+  'We have been using this for three years and it has never let us down. Even during peak traffic, performance stays rock solid.',
+  'The documentation is excellent. I was able to integrate the API into our existing stack without contacting support once.',
+  'My only complaint is that I did not discover this sooner. Would have saved us a painful year on our previous solution.',
+  'Other tools promise simplicity but deliver complexity. This one actually keeps things simple, even as you scale.',
+  'Support responded within the hour and walked me through the issue step by step. That kind of service is rare.',
 ] as const;
 
 export const testimonialNames = [
@@ -90,6 +138,14 @@ export const testimonialNames = [
   'P. Johansson',
   'E. Rossi',
   'H. Park',
+  'C. Lindgren',
+  'N. Becker',
+  'F. Moreau',
+  'V. Sorokin',
+  'B. Andersen',
+  'G. Papadopoulos',
+  'I. Takahashi',
+  'W. Novak',
 ] as const;
 
 export const testimonialRoles = [
@@ -103,6 +159,12 @@ export const testimonialRoles = [
   'Technical Lead',
   'Founder',
   'Head of Engineering',
+  'Product Designer',
+  'VP of Operations',
+  'Senior Architect',
+  'Director of IT',
+  'Startup Advisor',
+  'DevOps Engineer',
 ] as const;
 
 export const downloadLabels = [

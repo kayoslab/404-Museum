@@ -3,8 +3,83 @@
   font-size: var(--base-font-size, 16px);
   line-height: var(--line-height, 1.5);
   color: var(--color-text, #222);
-  background: var(--color-background, #fff);
+  background: var(--page-background, var(--color-background, #fff));
+  background-size: 80px 80px;
   min-height: 100%;
+}
+
+/* Dark background patterns override text/link colors for readability */
+#generated-site.dark-background {
+  color: #e0e0e0;
+}
+
+#generated-site.dark-background .site-header {
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+#generated-site.dark-background .site-logo {
+  color: #e0e0e0;
+}
+
+#generated-site.dark-background .site-nav a {
+  color: #8cb4ff;
+}
+
+#generated-site.dark-background .hero-tagline {
+  color: #e0e0e0;
+}
+
+#generated-site.dark-background .hero-summary {
+  color: #b0b0b0;
+}
+
+#generated-site.dark-background .site-footer {
+  background: rgba(0, 0, 0, 0.4);
+  border-top-color: rgba(255, 255, 255, 0.1);
+  color: #999;
+}
+
+#generated-site.dark-background .feature-card,
+#generated-site.dark-background .testimonial-card,
+#generated-site.dark-background .pricing-tier,
+#generated-site.dark-background .download-content {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #d0d0d0;
+}
+
+#generated-site.dark-background .feature-card h3,
+#generated-site.dark-background .pricing-tier h3,
+#generated-site.dark-background .download-version,
+#generated-site.dark-background .download-content h3,
+#generated-site.dark-background .news-item h3 {
+  color: #e0e0e0;
+}
+
+#generated-site.dark-background .feature-card p,
+#generated-site.dark-background .news-item p,
+#generated-site.dark-background .news-item time,
+#generated-site.dark-background .testimonial-card cite,
+#generated-site.dark-background .pricing-tier li,
+#generated-site.dark-background .system-requirements {
+  color: #999;
+}
+
+#generated-site.dark-background .roster-table th {
+  background: rgba(0, 0, 0, 0.3);
+  color: #b0b0ff;
+}
+
+#generated-site.dark-background .roster-table td {
+  color: #d0d0d0;
+}
+
+#generated-site.dark-background .roster-table th,
+#generated-site.dark-background .roster-table td,
+#generated-site.dark-background .news-item,
+#generated-site.dark-background .pricing-tier li {
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
 .generated-page {

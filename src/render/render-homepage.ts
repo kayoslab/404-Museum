@@ -9,7 +9,16 @@ import { renderAbandonmentDetails } from './render-abandonment-details';
 
 export function renderHomepage(container: HTMLElement, site: GeneratedSite): void {
   container.innerHTML = '';
+  container.classList.remove('dark-background');
+  container.style.removeProperty('--page-background');
   applyTheme(container, site.theme);
+
+  if (site.backgroundPattern) {
+    container.style.setProperty('--page-background', site.backgroundPattern.css);
+    if (site.backgroundPattern.dark) {
+      container.classList.add('dark-background');
+    }
+  }
 
   const wrapper = document.createElement('div');
   wrapper.className = 'generated-page';

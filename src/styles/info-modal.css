@@ -63,7 +63,28 @@
 }
 
 .info-modal p {
-  margin: 0;
+  margin: 0 0 12px;
   font-size: 14px;
   color: #bbb;
+}
+
+.info-modal p:last-of-type {
+  margin-bottom: 16px;
+}
+
+.info-modal-howto {
+  color: #999;
+  font-size: 13px;
+}
+
+.info-modal-source {
+  display: inline-block;
+  font-size: 13px;
+  color: #7ab;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.info-modal-source:hover {
+  color: #adf;
 }
