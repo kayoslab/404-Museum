@@ -334,13 +334,13 @@
         "All CI scripts pass"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-015",
         "US-016"
       ],
       "notes": "Definition of done for v1.",
-      "status": "available"
+      "status": "pass"
     },
     {
       "id": "US-018",

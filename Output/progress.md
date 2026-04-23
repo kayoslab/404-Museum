@@ -30,3 +30,5 @@
 
 ## US-016: Add responsive mobile support
 
+## US-017: Add smoke and snapshot tests
+
