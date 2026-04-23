@@ -113,13 +113,12 @@
         "All datasets are strongly typed"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-001"
       ],
       "notes": "No paid APIs or runtime data fetching.",
-      "status": "in_progress",
-      "claimed_by": "worker-3"
+      "status": "pass"
     },
     {
       "id": "US-007",
@@ -259,7 +258,8 @@
         "US-003"
       ],
       "notes": "Matches prior cr0ss.org projects.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-2"
     },
     {
       "id": "US-014",
