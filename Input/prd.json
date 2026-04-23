@@ -51,13 +51,12 @@
         "Browser resize updates layout without page reload"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-001"
       ],
       "notes": "Base structure for all later UI work.",
-      "status": "in_progress",
-      "claimed_by": "worker-2"
+      "status": "pass"
     },
     {
       "id": "US-004",
@@ -77,7 +76,8 @@
         "US-002"
       ],
       "notes": "Critical for reproducibility and sharing.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-1"
     },
     {
       "id": "US-005",

@@ -2,3 +2,5 @@
 
 ## US-002: Add linting, typecheck, and unit test tooling
 
+## US-003: Create full-screen application shell
+
