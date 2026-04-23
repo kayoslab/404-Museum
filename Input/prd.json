@@ -192,7 +192,7 @@
         "No runtime errors occur during render"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-003",
         "US-005",
@@ -200,8 +200,7 @@
         "US-009"
       ],
       "notes": "Core user-visible experience.",
-      "status": "in_progress",
-      "claimed_by": "worker-3"
+      "status": "pass"
     },
     {
       "id": "US-011",

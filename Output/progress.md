@@ -20,3 +20,5 @@
 
 ## US-015: Create floating share button
 
+## US-010: Render base generated homepage structure
+
