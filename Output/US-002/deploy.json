@@ -1,0 +1,1 @@
+{"decision":"pass","gates_checked":["lint","typecheck","tests"],"failures":[],"notes":"All gates pass. npm run lint (ESLint on src/) exits clean. npm run typecheck (tsc --noEmit) exits clean. npm run test (vitest run) passes 37/37 tests across 2 test files (us-001-workspace-init.test.ts, us-002-tooling.test.ts). All commands run non-interactively."}
