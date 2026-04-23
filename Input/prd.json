@@ -71,13 +71,12 @@
         "Utility has unit tests"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-002"
       ],
       "notes": "Critical for reproducibility and sharing.",
-      "status": "in_progress",
-      "claimed_by": "worker-1"
+      "status": "pass"
     },
     {
       "id": "US-005",

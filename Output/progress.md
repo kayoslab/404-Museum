@@ -6,3 +6,5 @@
 
 ## US-006: Create alternate timeline dataset definitions
 
+## US-004: Implement deterministic seeded random utility
+
