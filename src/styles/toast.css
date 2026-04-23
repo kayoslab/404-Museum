@@ -1,0 +1,26 @@
+.toast {
+  position: absolute;
+  bottom: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  white-space: nowrap;
+}
+
+.toast--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.toast--error {
+  background: rgba(180, 40, 40, 0.85);
+}
