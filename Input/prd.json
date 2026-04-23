@@ -219,7 +219,8 @@
         "US-010"
       ],
       "notes": "Split from original large rendering ticket.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-012",
