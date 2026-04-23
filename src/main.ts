@@ -4,6 +4,8 @@ import './styles/info-button.css';
 import './styles/info-modal.css';
 import { createInfoButton } from './ui/info-button';
 import { createInfoModal } from './ui/info-modal';
+import { readSeedFromUrl, writeSeedToUrl } from './domain/url-seed';
+import { resolveSeed } from './domain/resolve-seed';
 
 const app = document.querySelector<HTMLDivElement>("#app");
 
@@ -18,4 +20,8 @@ if (app) {
     const infoModal = createInfoModal(overlayUi);
     infoButton.addEventListener('click', () => infoModal.show());
   }
+
+  const rawSeed = readSeedFromUrl();
+  const seed = resolveSeed(rawSeed);
+  writeSeedToUrl(seed);
 }
