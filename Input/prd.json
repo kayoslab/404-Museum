@@ -1,0 +1,318 @@
+{
+  "project": "404-museum",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Initialize Vite and TypeScript workspace",
+      "description": "As a developer, I want a clean Vite and TypeScript project so that the application can be developed locally, built for production, and extended safely.",
+      "acceptanceCriteria": [
+        "`npm install` completes successfully",
+        "`npm run dev` starts the Vite development server",
+        "`npm run build` creates a production bundle",
+        "`npm run preview` serves the built bundle locally",
+        "`package.json` contains `dev`, `build`, and `preview` scripts",
+        "TypeScript strict mode is enabled",
+        "The default page loads in a browser without console errors"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": [],
+      "notes": "Foundation ticket. No backend folders or server code in v1.",
+      "status": "available"
+    },
+    {
+      "id": "US-002",
+      "title": "Add linting, typecheck, and unit test tooling",
+      "description": "As a developer, I want baseline quality tooling so that all future tickets can be verified consistently before completion.",
+      "acceptanceCriteria": [
+        "`npm run lint` exists and runs ESLint",
+        "`npm run typecheck` exists and runs TypeScript in noEmit mode",
+        "`npm run test` exists and runs Vitest",
+        "At least one sample unit test passes",
+        "All scripts run without interactive prompts"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-001"],
+      "notes": "Required by most later tickets.",
+      "status": "available"
+    },
+    {
+      "id": "US-003",
+      "title": "Create full-screen application shell",
+      "description": "As a visitor, I want a full-screen page shell so that the generated fake website feels immersive and uncluttered.",
+      "acceptanceCriteria": [
+        "Viewport fills the browser window",
+        "A dedicated generated-site container exists",
+        "A separate overlay UI container exists",
+        "No default scrollbars appear on normal desktop resolutions",
+        "Browser resize updates layout without page reload"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-001"],
+      "notes": "Base structure for all later UI work.",
+      "status": "available"
+    },
+    {
+      "id": "US-004",
+      "title": "Implement deterministic seeded random utility",
+      "description": "As a developer, I want a deterministic seeded random system so that identical seeds always generate identical websites.",
+      "acceptanceCriteria": [
+        "The same seed always produces the same random sequence",
+        "Different seeds produce different random sequences",
+        "Seed values are URL-safe strings",
+        "Generator modules do not call `Math.random()` directly in v1",
+        "A helper exists for deriving repeatable sub-seeds or sub-streams",
+        "Utility has unit tests"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-002"],
+      "notes": "Critical for reproducibility and sharing.",
+      "status": "available"
+    },
+    {
+      "id": "US-005",
+      "title": "Read and write seed from URL parameters",
+      "description": "As a visitor, I want the website state encoded in the URL so that refreshing or sharing the page recreates the exact same generated website.",
+      "acceptanceCriteria": [
+        "The query parameter key is exactly `seed`",
+        "If `?seed=` exists, the application uses that seed",
+        "If `seed` is missing, a valid seed is generated on first load",
+        "The generated seed is written into the URL using history APIs without full page reload",
+        "If an invalid seed is provided, it is replaced with a valid seed",
+        "Refreshing the page with the same seed reproduces identical metadata, theme, layout, and decorative details",
+        "Opening the same seeded URL in another browser session reproduces identical output"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-004"],
+      "notes": "Foundation for reproducibility, refresh, and sharing.",
+      "status": "available"
+    },
+    {
+      "id": "US-006",
+      "title": "Create alternate timeline dataset definitions",
+      "description": "As a developer, I want structured datasets for eras, archetypes, regions, vocabulary, and design cues so generated websites feel varied and plausible.",
+      "acceptanceCriteria": [
+        "At least 5 eras exist",
+        "At least 8 site archetypes exist",
+        "At least 3 regional flavors exist including Germany",
+        "Era records include year range, design cues, and vocabulary cues",
+        "Archetype records include label, compatible eras, and compatible regions",
+        "All datasets are strongly typed"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-001"],
+      "notes": "No paid APIs or runtime data fetching.",
+      "status": "available"
+    },
+    {
+      "id": "US-007",
+      "title": "Generate believable fake names",
+      "description": "As a visitor, I want generated names that feel historically plausible so the fake websites feel authentic rather than random.",
+      "acceptanceCriteria": [
+        "Name generation uses the seeded random utility",
+        "Names vary by archetype such as airline, software vendor, fan page, or startup",
+        "German-flavored names can appear naturally",
+        "Generated names avoid obvious parody or close imitation of famous brands",
+        "At least 20 snapshot tests pass using fixed seeds"
+      ],
+      "priority": 2,
+      "passes": false,
+      "depends_on": ["US-004", "US-006"],
+      "notes": "High impact on realism.",
+      "status": "available"
+    },
+    {
+      "id": "US-008",
+      "title": "Generate fake site metadata",
+      "description": "As a visitor, I want each generated website to have believable metadata so it feels like a real historical website.",
+      "acceptanceCriteria": [
+        "Generated metadata includes `siteName`, `tagline`, `yearFounded`, `statusLabel`, `closureReason`, and `summary`",
+        "The selected year is compatible with the chosen era",
+        "`summary` is short homepage-ready copy",
+        "Metadata generation is deterministic from seed",
+        "Metadata generation is independent from DOM rendering"
+      ],
+      "priority": 2,
+      "passes": false,
+      "depends_on": ["US-006", "US-007"],
+      "notes": "Feeds later rendering tickets.",
+      "status": "available"
+    },
+    {
+      "id": "US-009",
+      "title": "Create style theme mapper by era",
+      "description": "As a visitor, I want each fake website to visually match its time period so the alternate timeline feels convincing.",
+      "acceptanceCriteria": [
+        "At least 5 visual themes exist",
+        "Theme selection is deterministic from seed and site context",
+        "A theme object defines typography, palette, spacing, borders, and surfaces",
+        "Themes include examples such as 90s table web, Web 2.0 glossy, startup minimalism",
+        "Renderer consumes typed theme objects rather than scattered inline styles"
+      ],
+      "priority": 2,
+      "passes": false,
+      "depends_on": ["US-006"],
+      "notes": "Core visual identity system.",
+      "status": "available"
+    },
+    {
+      "id": "US-010",
+      "title": "Render base generated homepage structure",
+      "description": "As a visitor, I want to see a complete fake homepage generated from the active seed so the concept is immediately understandable.",
+      "acceptanceCriteria": [
+        "Rendering uses the current URL seed",
+        "A single-page homepage is rendered in v1",
+        "Page includes header or navigation area",
+        "Page includes hero area",
+        "Page includes footer area",
+        "No runtime errors occur during render"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-003", "US-005", "US-008", "US-009"],
+      "notes": "Core user-visible experience.",
+      "status": "available"
+    },
+    {
+      "id": "US-011",
+      "title": "Render reusable homepage content modules",
+      "description": "As a visitor, I want the homepage to contain believable body content so each generated site feels substantial and unique.",
+      "acceptanceCriteria": [
+        "At least 2 reusable body content modules exist",
+        "Examples include features grid, news block, download panel, testimonials, guild roster, route map, or pricing table",
+        "At least 2 body modules render per generated page",
+        "Module selection is deterministic from seed",
+        "Modules follow the active theme"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-010"],
+      "notes": "Split from original large rendering ticket.",
+      "status": "available"
+    },
+    {
+      "id": "US-012",
+      "title": "Add abandoned and broken historical details",
+      "description": "As a visitor, I want subtle signs of abandonment so the museum concept becomes clear after first glance.",
+      "acceptanceCriteria": [
+        "Each site includes 2 to 5 deterministic abandonment details",
+        "Examples include outdated copyright years, stale news, broken badges, dead counters, deprecated browser notices, missing assets placeholders",
+        "Main content remains readable and usable",
+        "No real network failures are required to simulate broken details"
+      ],
+      "priority": 2,
+      "passes": false,
+      "depends_on": ["US-008", "US-011"],
+      "notes": "Narrative layer.",
+      "status": "available"
+    },
+    {
+      "id": "US-013",
+      "title": "Create floating info button",
+      "description": "As a visitor, I want a floating info button so I can understand what 404 Museum is.",
+      "acceptanceCriteria": [
+        "Button is fixed in the bottom-right corner",
+        "Button remains visible across viewport sizes",
+        "Click opens an info panel or modal",
+        "Panel explains the concept concisely",
+        "Panel can be closed"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-003"],
+      "notes": "Matches prior cr0ss.org projects.",
+      "status": "available"
+    },
+    {
+      "id": "US-014",
+      "title": "Create floating refresh button",
+      "description": "As a visitor, I want a refresh button so I can instantly generate another alternate timeline website.",
+      "acceptanceCriteria": [
+        "Button is visible near the info button",
+        "Click generates a new valid seed",
+        "The page rerenders without using browser reload",
+        "The URL updates to the new seed",
+        "No duplicate controls or stale UI remain after repeated clicks"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-005", "US-011"],
+      "notes": "High engagement feature.",
+      "status": "available"
+    },
+    {
+      "id": "US-015",
+      "title": "Create floating share button",
+      "description": "As a visitor, I want to share the exact generated website I am viewing so others can open the same alternate timeline page.",
+      "acceptanceCriteria": [
+        "Button is visible near the floating controls",
+        "Primary share payload is the current full URL including `seed`",
+        "If Web Share API is available, it is used",
+        "If Web Share API is unavailable or fails, clipboard copy is attempted",
+        "Visible success or error feedback is shown"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-005"],
+      "notes": "Virality feature.",
+      "status": "available"
+    },
+    {
+      "id": "US-016",
+      "title": "Add responsive mobile support",
+      "description": "As a mobile visitor, I want the generated websites and floating controls to remain usable on smaller screens.",
+      "acceptanceCriteria": [
+        "Application is usable from 320px viewport width upward",
+        "No horizontal overflow on common phone widths",
+        "Floating controls remain tappable and non-overlapping",
+        "Typography remains readable without pinch zoom",
+        "Layouts may remain retro but must remain functional"
+      ],
+      "priority": 2,
+      "passes": false,
+      "depends_on": ["US-013", "US-014", "US-015"],
+      "notes": "Important for social traffic.",
+      "status": "available"
+    },
+    {
+      "id": "US-017",
+      "title": "Add smoke and snapshot tests",
+      "description": "As a developer, I want regression tests so deterministic generation and main user flows remain stable over time.",
+      "acceptanceCriteria": [
+        "Snapshot tests cover metadata generation, name generation, and theme selection",
+        "Smoke test covers first load without seed",
+        "Smoke test covers first load with seed",
+        "Smoke test covers refresh button flow",
+        "Smoke test covers share-link reproduction flow",
+        "All CI scripts pass"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-015", "US-016"],
+      "notes": "Definition of done for v1.",
+      "status": "available"
+    },
+    {
+      "id": "US-018",
+      "title": "Deploy static production build",
+      "description": "As a creator, I want the project deployed cheaply as a static website so it can be shared publicly without backend cost.",
+      "acceptanceCriteria": [
+        "Production build succeeds",
+        "Deployment target uses static hosting only",
+        "No server-side rendering or serverless functions are required",
+        "Opening seeded URLs directly in production works correctly",
+        "Deployment steps are documented"
+      ],
+      "priority": 1,
+      "passes": false,
+      "depends_on": ["US-017"],
+      "notes": "Recommended target: Vercel static hosting.",
+      "status": "available"
+    }
+  ]
+}
