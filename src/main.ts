@@ -6,6 +6,7 @@ import './styles/share-button.css';
 import './styles/refresh-button.css';
 import './styles/toast.css';
 import './styles/generated-site.css';
+import './styles/responsive.css';
 import { createInfoButton } from './ui/info-button';
 import { createInfoModal } from './ui/info-modal';
 import { createShareButton } from './ui/share-button';

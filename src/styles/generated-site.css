@@ -391,34 +391,3 @@
   border: var(--border-width, 1px) var(--border-style, solid) var(--border-color, #ddd);
   border-radius: var(--border-radius, 2px);
 }
-
-/* Responsive */
-@media (max-width: 600px) {
-  .site-header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: var(--spacing-small, 8px) var(--spacing-medium, 16px);
-  }
-
-  .site-hero {
-    padding: var(--spacing-medium, 16px);
-  }
-
-  .hero-tagline {
-    font-size: 1.5em;
-  }
-
-  .site-footer {
-    padding: var(--spacing-small, 8px) var(--spacing-medium, 16px);
-  }
-
-  .site-body {
-    padding: var(--spacing-small, 8px) var(--spacing-medium, 16px);
-  }
-
-  .features-grid,
-  .testimonials-grid,
-  .pricing-grid {
-    grid-template-columns: 1fr;
-  }
-}
