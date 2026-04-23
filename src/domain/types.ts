@@ -40,3 +40,53 @@ export interface SeededRandom {
 }
 
 export type Seed = string;
+
+export interface ThemeTypography {
+  readonly fontFamily: string;
+  readonly headingFont: string;
+  readonly monoFont: string;
+  readonly baseFontSize: number;
+  readonly lineHeight: number;
+  readonly headingWeight: number;
+}
+
+export interface ThemePalette {
+  readonly primary: string;
+  readonly secondary: string;
+  readonly accent: string;
+  readonly background: string;
+  readonly surface: string;
+  readonly text: string;
+  readonly muted: string;
+}
+
+export interface ThemeSpacing {
+  readonly unit: number;
+  readonly small: number;
+  readonly medium: number;
+  readonly large: number;
+  readonly sectionGap: number;
+}
+
+export interface ThemeBorders {
+  readonly radius: number;
+  readonly width: number;
+  readonly style: string;
+  readonly color: string;
+}
+
+export interface ThemeSurfaces {
+  readonly background: string;
+  readonly shadow: string;
+  readonly texture: string;
+}
+
+export interface Theme {
+  readonly id: string;
+  readonly label: string;
+  readonly typography: ThemeTypography;
+  readonly palette: ThemePalette;
+  readonly spacing: ThemeSpacing;
+  readonly borders: ThemeBorders;
+  readonly surfaces: ThemeSurfaces;
+}

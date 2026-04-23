@@ -1,0 +1,841 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > alt-timeline theme matches snapshot 1`] = `
+{
+  "borders": {
+    "color": "#475569",
+    "radius": 6,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "alt-timeline",
+  "label": "Strange Alternate Timeline",
+  "palette": {
+    "accent": "#D97706",
+    "background": "#1E293B",
+    "muted": "#94A3B8",
+    "primary": "#8B5CF6",
+    "secondary": "#0D9488",
+    "surface": "#334155",
+    "text": "#F0FDF4",
+  },
+  "spacing": {
+    "large": 28,
+    "medium": 14,
+    "sectionGap": 48,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "radial-gradient(ellipse at center, #1E293B, #0F172A)",
+    "shadow": "0 4px 12px rgba(139,92,246,0.15)",
+    "texture": "ambient",
+  },
+  "typography": {
+    "baseFontSize": 15,
+    "fontFamily": "Futura, sans-serif",
+    "headingFont": "Palatino, serif",
+    "headingWeight": 500,
+    "lineHeight": 1.55,
+    "monoFont": "Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > early-web theme matches snapshot 1`] = `
+{
+  "borders": {
+    "color": "#808080",
+    "radius": 0,
+    "style": "outset",
+    "width": 2,
+  },
+  "id": "early-web",
+  "label": "Early Web",
+  "palette": {
+    "accent": "#FFFF00",
+    "background": "#FFFFFF",
+    "muted": "#808080",
+    "primary": "#000080",
+    "secondary": "#C0C0C0",
+    "surface": "#C0C0C0",
+    "text": "#000000",
+  },
+  "spacing": {
+    "large": 16,
+    "medium": 8,
+    "sectionGap": 24,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "solid",
+    "shadow": "none",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 14,
+    "fontFamily": "Times New Roman, serif",
+    "headingFont": "Comic Sans MS, cursive",
+    "headingWeight": 700,
+    "lineHeight": 1.4,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > portal-era theme matches snapshot 1`] = `
+{
+  "borders": {
+    "color": "#CCCCCC",
+    "radius": 3,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "portal-era",
+  "label": "Portal Era",
+  "palette": {
+    "accent": "#003366",
+    "background": "#FFFFFF",
+    "muted": "#999999",
+    "primary": "#336699",
+    "secondary": "#FF6600",
+    "surface": "#EEEEEE",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 20,
+    "medium": 10,
+    "sectionGap": 30,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FFFFFF, #F0F0F0)",
+    "shadow": "1px 1px 3px rgba(0,0,0,0.15)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 12,
+    "fontFamily": "Verdana, Geneva, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "headingWeight": 700,
+    "lineHeight": 1.5,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 1`] = `
+{
+  "borders": {
+    "color": "#808080",
+    "radius": 0,
+    "style": "outset",
+    "width": 2,
+  },
+  "id": "early-web",
+  "label": "Early Web",
+  "palette": {
+    "accent": "#FFFF00",
+    "background": "#FFFFFF",
+    "muted": "#808080",
+    "primary": "#000080",
+    "secondary": "#C0C0C0",
+    "surface": "#C0C0C0",
+    "text": "#000000",
+  },
+  "spacing": {
+    "large": 16,
+    "medium": 8,
+    "sectionGap": 24,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "solid",
+    "shadow": "none",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 14,
+    "fontFamily": "Times New Roman, serif",
+    "headingFont": "Comic Sans MS, cursive",
+    "headingWeight": 700,
+    "lineHeight": 1.4,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 2`] = `
+{
+  "borders": {
+    "color": "#CCCCCC",
+    "radius": 3,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "portal-era",
+  "label": "Portal Era",
+  "palette": {
+    "accent": "#003366",
+    "background": "#FFFFFF",
+    "muted": "#999999",
+    "primary": "#336699",
+    "secondary": "#FF6600",
+    "surface": "#EEEEEE",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 20,
+    "medium": 10,
+    "sectionGap": 30,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FFFFFF, #F0F0F0)",
+    "shadow": "1px 1px 3px rgba(0,0,0,0.15)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 12,
+    "fontFamily": "Verdana, Geneva, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "headingWeight": 700,
+    "lineHeight": 1.5,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 3`] = `
+{
+  "borders": {
+    "color": "#D0D0D0",
+    "radius": 8,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "web2",
+  "label": "Web 2.0",
+  "palette": {
+    "accent": "#FF9900",
+    "background": "#F5F5F5",
+    "muted": "#888888",
+    "primary": "#4A90D9",
+    "secondary": "#5CB85C",
+    "surface": "#FFFFFF",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 24,
+    "medium": 12,
+    "sectionGap": 36,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FAFAFA, #E8E8E8)",
+    "shadow": "0 2px 6px rgba(0,0,0,0.12)",
+    "texture": "glossy",
+  },
+  "typography": {
+    "baseFontSize": 13,
+    "fontFamily": "Lucida Grande, sans-serif",
+    "headingFont": "Helvetica Neue, Helvetica, sans-serif",
+    "headingWeight": 600,
+    "lineHeight": 1.6,
+    "monoFont": "Monaco, Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 4`] = `
+{
+  "borders": {
+    "color": "#E0E0E0",
+    "radius": 4,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "startup-minimalism",
+  "label": "Startup Minimalism",
+  "palette": {
+    "accent": "#FF6B6B",
+    "background": "#FFFFFF",
+    "muted": "#AAAAAA",
+    "primary": "#00B4D8",
+    "secondary": "#222222",
+    "surface": "#FAFAFA",
+    "text": "#222222",
+  },
+  "spacing": {
+    "large": 32,
+    "medium": 16,
+    "sectionGap": 64,
+    "small": 8,
+    "unit": 8,
+  },
+  "surfaces": {
+    "background": "flat",
+    "shadow": "0 1px 3px rgba(0,0,0,0.08)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 16,
+    "fontFamily": "Open Sans, sans-serif",
+    "headingFont": "Montserrat, sans-serif",
+    "headingWeight": 300,
+    "lineHeight": 1.7,
+    "monoFont": "Source Code Pro, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 5`] = `
+{
+  "borders": {
+    "color": "#475569",
+    "radius": 6,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "alt-timeline",
+  "label": "Strange Alternate Timeline",
+  "palette": {
+    "accent": "#D97706",
+    "background": "#1E293B",
+    "muted": "#94A3B8",
+    "primary": "#8B5CF6",
+    "secondary": "#0D9488",
+    "surface": "#334155",
+    "text": "#F0FDF4",
+  },
+  "spacing": {
+    "large": 28,
+    "medium": 14,
+    "sectionGap": 48,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "radial-gradient(ellipse at center, #1E293B, #0F172A)",
+    "shadow": "0 4px 12px rgba(139,92,246,0.15)",
+    "texture": "ambient",
+  },
+  "typography": {
+    "baseFontSize": 15,
+    "fontFamily": "Futura, sans-serif",
+    "headingFont": "Palatino, serif",
+    "headingWeight": 500,
+    "lineHeight": 1.55,
+    "monoFont": "Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 6`] = `
+{
+  "borders": {
+    "color": "#808080",
+    "radius": 0,
+    "style": "outset",
+    "width": 2,
+  },
+  "id": "early-web",
+  "label": "Early Web",
+  "palette": {
+    "accent": "#FFFF00",
+    "background": "#FFFFFF",
+    "muted": "#808080",
+    "primary": "#000080",
+    "secondary": "#C0C0C0",
+    "surface": "#C0C0C0",
+    "text": "#000000",
+  },
+  "spacing": {
+    "large": 16,
+    "medium": 8,
+    "sectionGap": 24,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "solid",
+    "shadow": "none",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 14,
+    "fontFamily": "Times New Roman, serif",
+    "headingFont": "Comic Sans MS, cursive",
+    "headingWeight": 700,
+    "lineHeight": 1.4,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 7`] = `
+{
+  "borders": {
+    "color": "#CCCCCC",
+    "radius": 3,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "portal-era",
+  "label": "Portal Era",
+  "palette": {
+    "accent": "#003366",
+    "background": "#FFFFFF",
+    "muted": "#999999",
+    "primary": "#336699",
+    "secondary": "#FF6600",
+    "surface": "#EEEEEE",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 20,
+    "medium": 10,
+    "sectionGap": 30,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FFFFFF, #F0F0F0)",
+    "shadow": "1px 1px 3px rgba(0,0,0,0.15)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 12,
+    "fontFamily": "Verdana, Geneva, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "headingWeight": 700,
+    "lineHeight": 1.5,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 8`] = `
+{
+  "borders": {
+    "color": "#D0D0D0",
+    "radius": 8,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "web2",
+  "label": "Web 2.0",
+  "palette": {
+    "accent": "#FF9900",
+    "background": "#F5F5F5",
+    "muted": "#888888",
+    "primary": "#4A90D9",
+    "secondary": "#5CB85C",
+    "surface": "#FFFFFF",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 24,
+    "medium": 12,
+    "sectionGap": 36,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FAFAFA, #E8E8E8)",
+    "shadow": "0 2px 6px rgba(0,0,0,0.12)",
+    "texture": "glossy",
+  },
+  "typography": {
+    "baseFontSize": 13,
+    "fontFamily": "Lucida Grande, sans-serif",
+    "headingFont": "Helvetica Neue, Helvetica, sans-serif",
+    "headingWeight": 600,
+    "lineHeight": 1.6,
+    "monoFont": "Monaco, Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 9`] = `
+{
+  "borders": {
+    "color": "#E0E0E0",
+    "radius": 4,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "startup-minimalism",
+  "label": "Startup Minimalism",
+  "palette": {
+    "accent": "#FF6B6B",
+    "background": "#FFFFFF",
+    "muted": "#AAAAAA",
+    "primary": "#00B4D8",
+    "secondary": "#222222",
+    "surface": "#FAFAFA",
+    "text": "#222222",
+  },
+  "spacing": {
+    "large": 32,
+    "medium": 16,
+    "sectionGap": 64,
+    "small": 8,
+    "unit": 8,
+  },
+  "surfaces": {
+    "background": "flat",
+    "shadow": "0 1px 3px rgba(0,0,0,0.08)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 16,
+    "fontFamily": "Open Sans, sans-serif",
+    "headingFont": "Montserrat, sans-serif",
+    "headingWeight": 300,
+    "lineHeight": 1.7,
+    "monoFont": "Source Code Pro, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 10`] = `
+{
+  "borders": {
+    "color": "#475569",
+    "radius": 6,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "alt-timeline",
+  "label": "Strange Alternate Timeline",
+  "palette": {
+    "accent": "#D97706",
+    "background": "#1E293B",
+    "muted": "#94A3B8",
+    "primary": "#8B5CF6",
+    "secondary": "#0D9488",
+    "surface": "#334155",
+    "text": "#F0FDF4",
+  },
+  "spacing": {
+    "large": 28,
+    "medium": 14,
+    "sectionGap": 48,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "radial-gradient(ellipse at center, #1E293B, #0F172A)",
+    "shadow": "0 4px 12px rgba(139,92,246,0.15)",
+    "texture": "ambient",
+  },
+  "typography": {
+    "baseFontSize": 15,
+    "fontFamily": "Futura, sans-serif",
+    "headingFont": "Palatino, serif",
+    "headingWeight": 500,
+    "lineHeight": 1.55,
+    "monoFont": "Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 11`] = `
+{
+  "borders": {
+    "color": "#808080",
+    "radius": 0,
+    "style": "outset",
+    "width": 2,
+  },
+  "id": "early-web",
+  "label": "Early Web",
+  "palette": {
+    "accent": "#FFFF00",
+    "background": "#FFFFFF",
+    "muted": "#808080",
+    "primary": "#000080",
+    "secondary": "#C0C0C0",
+    "surface": "#C0C0C0",
+    "text": "#000000",
+  },
+  "spacing": {
+    "large": 16,
+    "medium": 8,
+    "sectionGap": 24,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "solid",
+    "shadow": "none",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 14,
+    "fontFamily": "Times New Roman, serif",
+    "headingFont": "Comic Sans MS, cursive",
+    "headingWeight": 700,
+    "lineHeight": 1.4,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 12`] = `
+{
+  "borders": {
+    "color": "#CCCCCC",
+    "radius": 3,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "portal-era",
+  "label": "Portal Era",
+  "palette": {
+    "accent": "#003366",
+    "background": "#FFFFFF",
+    "muted": "#999999",
+    "primary": "#336699",
+    "secondary": "#FF6600",
+    "surface": "#EEEEEE",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 20,
+    "medium": 10,
+    "sectionGap": 30,
+    "small": 4,
+    "unit": 4,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FFFFFF, #F0F0F0)",
+    "shadow": "1px 1px 3px rgba(0,0,0,0.15)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 12,
+    "fontFamily": "Verdana, Geneva, sans-serif",
+    "headingFont": "Arial, Helvetica, sans-serif",
+    "headingWeight": 700,
+    "lineHeight": 1.5,
+    "monoFont": "Courier New, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 13`] = `
+{
+  "borders": {
+    "color": "#D0D0D0",
+    "radius": 8,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "web2",
+  "label": "Web 2.0",
+  "palette": {
+    "accent": "#FF9900",
+    "background": "#F5F5F5",
+    "muted": "#888888",
+    "primary": "#4A90D9",
+    "secondary": "#5CB85C",
+    "surface": "#FFFFFF",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 24,
+    "medium": 12,
+    "sectionGap": 36,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FAFAFA, #E8E8E8)",
+    "shadow": "0 2px 6px rgba(0,0,0,0.12)",
+    "texture": "glossy",
+  },
+  "typography": {
+    "baseFontSize": 13,
+    "fontFamily": "Lucida Grande, sans-serif",
+    "headingFont": "Helvetica Neue, Helvetica, sans-serif",
+    "headingWeight": 600,
+    "lineHeight": 1.6,
+    "monoFont": "Monaco, Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 14`] = `
+{
+  "borders": {
+    "color": "#E0E0E0",
+    "radius": 4,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "startup-minimalism",
+  "label": "Startup Minimalism",
+  "palette": {
+    "accent": "#FF6B6B",
+    "background": "#FFFFFF",
+    "muted": "#AAAAAA",
+    "primary": "#00B4D8",
+    "secondary": "#222222",
+    "surface": "#FAFAFA",
+    "text": "#222222",
+  },
+  "spacing": {
+    "large": 32,
+    "medium": 16,
+    "sectionGap": 64,
+    "small": 8,
+    "unit": 8,
+  },
+  "surfaces": {
+    "background": "flat",
+    "shadow": "0 1px 3px rgba(0,0,0,0.08)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 16,
+    "fontFamily": "Open Sans, sans-serif",
+    "headingFont": "Montserrat, sans-serif",
+    "headingWeight": 300,
+    "lineHeight": 1.7,
+    "monoFont": "Source Code Pro, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > selectTheme output matches snapshot for fixed seeds 15`] = `
+{
+  "borders": {
+    "color": "#475569",
+    "radius": 6,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "alt-timeline",
+  "label": "Strange Alternate Timeline",
+  "palette": {
+    "accent": "#D97706",
+    "background": "#1E293B",
+    "muted": "#94A3B8",
+    "primary": "#8B5CF6",
+    "secondary": "#0D9488",
+    "surface": "#334155",
+    "text": "#F0FDF4",
+  },
+  "spacing": {
+    "large": 28,
+    "medium": 14,
+    "sectionGap": 48,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "radial-gradient(ellipse at center, #1E293B, #0F172A)",
+    "shadow": "0 4px 12px rgba(139,92,246,0.15)",
+    "texture": "ambient",
+  },
+  "typography": {
+    "baseFontSize": 15,
+    "fontFamily": "Futura, sans-serif",
+    "headingFont": "Palatino, serif",
+    "headingWeight": 500,
+    "lineHeight": 1.55,
+    "monoFont": "Consolas, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > startup-minimalism theme matches snapshot 1`] = `
+{
+  "borders": {
+    "color": "#E0E0E0",
+    "radius": 4,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "startup-minimalism",
+  "label": "Startup Minimalism",
+  "palette": {
+    "accent": "#FF6B6B",
+    "background": "#FFFFFF",
+    "muted": "#AAAAAA",
+    "primary": "#00B4D8",
+    "secondary": "#222222",
+    "surface": "#FAFAFA",
+    "text": "#222222",
+  },
+  "spacing": {
+    "large": 32,
+    "medium": 16,
+    "sectionGap": 64,
+    "small": 8,
+    "unit": 8,
+  },
+  "surfaces": {
+    "background": "flat",
+    "shadow": "0 1px 3px rgba(0,0,0,0.08)",
+    "texture": "",
+  },
+  "typography": {
+    "baseFontSize": 16,
+    "fontFamily": "Open Sans, sans-serif",
+    "headingFont": "Montserrat, sans-serif",
+    "headingWeight": 300,
+    "lineHeight": 1.7,
+    "monoFont": "Source Code Pro, monospace",
+  },
+}
+`;
+
+exports[`US-009: Create style theme mapper by era > snapshot stability > web2 theme matches snapshot 1`] = `
+{
+  "borders": {
+    "color": "#D0D0D0",
+    "radius": 8,
+    "style": "solid",
+    "width": 1,
+  },
+  "id": "web2",
+  "label": "Web 2.0",
+  "palette": {
+    "accent": "#FF9900",
+    "background": "#F5F5F5",
+    "muted": "#888888",
+    "primary": "#4A90D9",
+    "secondary": "#5CB85C",
+    "surface": "#FFFFFF",
+    "text": "#333333",
+  },
+  "spacing": {
+    "large": 24,
+    "medium": 12,
+    "sectionGap": 36,
+    "small": 6,
+    "unit": 6,
+  },
+  "surfaces": {
+    "background": "linear-gradient(to bottom, #FAFAFA, #E8E8E8)",
+    "shadow": "0 2px 6px rgba(0,0,0,0.12)",
+    "texture": "glossy",
+  },
+  "typography": {
+    "baseFontSize": 13,
+    "fontFamily": "Lucida Grande, sans-serif",
+    "headingFont": "Helvetica Neue, Helvetica, sans-serif",
+    "headingWeight": 600,
+    "lineHeight": 1.6,
+    "monoFont": "Monaco, Consolas, monospace",
+  },
+}
+`;
