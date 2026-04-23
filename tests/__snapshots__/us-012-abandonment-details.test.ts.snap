@@ -1,3 +1,838 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`US-012 · Abandonment details — snapshot stability > rendered homepage snapshot with abandonment details 1`] = `"<section class="module-news-block"><h2>Neuigkeiten</h2><ul class="news-list"><li class="news-item"><time>2014-08-24</time><h3>Server Migration Complete — Thank You for Your Patience</h3><p>Your feedback has been instrumental in shaping this release.</p></li><li class="news-item"><time>2011-02-09</time><h3>Security Update: Please Change Your Password</h3><p>This change affects all users on the standard plan.</p></li><li class="news-item"><time>2013-12-25</time><h3>Annual User Survey Results Published</h3><p>Early access is available to all registered members.</p></li><li class="news-item"><time>2012-03-16</time><h3>Mobile App Update Available on All Platforms</h3><p>Read on for full details and instructions.</p></li><li class="news-item"><time>2011-12-21</time><h3>Version 3.0 Released with Major Performance Improvements</h3><p>Please review the updated documentation for more information.</p></li></ul></section><section class="module-features-grid"><h2>Funktionen</h2><div class="features-grid"><div class="feature-card"><div class="feature-icon">◆</div><h3>Real-Time Sync</h3><p>Extend functionality with community-built add-ons.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Role Management</h3><p>Control who can access what.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Offline Mode</h3><p>Roll back to any previous version at any time.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Bulk Import</h3><p>Collaborate with your entire team seamlessly.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Two-Factor Auth</h3><p>Narrow down results with intelligent filtering.</p></div></div></section>"`;
+exports[`US-012 · Abandonment details — snapshot stability > rendered homepage snapshot with abandonment details 1`] = `"<section class="module-news-block"><h2>Neuigkeiten</h2><ul class="news-list"><li class="news-item"><time>2014-08-24</time><h3>Server Migration Complete — Thank You for Your Patience</h3><p>Your feedback has been instrumental in shaping this release.</p></li><li class="news-item"><time>2011-02-09</time><h3>Security Update: Please Change Your Password</h3><p>This change affects all users on the standard plan.</p></li><li class="news-item"><time>2013-12-25</time><h3>Annual User Survey Results Published</h3><p>Early access is available to all registered members.</p></li><li class="news-item"><time>2012-03-16</time><h3>Mobile App Update Available on All Platforms</h3><p>Read on for full details and instructions.</p></li><li class="news-item"><time>2011-12-21</time><h3>Version 3.0 Released with Major Performance Improvements</h3><p>Please review the updated documentation for more information.</p></li></ul></section><section class="module-features-grid"><h2>Funktionen</h2><div class="features-grid"><div class="feature-card"><div class="feature-icon">◆</div><h3>Real-Time Sync</h3><p>Extend functionality with community-built add-ons.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Role Management</h3><p>Control who can access what.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Offline Mode</h3><p>Roll back to any previous version at any time.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Bulk Import</h3><p>Collaborate with your entire team seamlessly.</p></div><div class="feature-card"><div class="feature-icon">◆</div><h3>Two-Factor Auth</h3><p>Narrow down results with intelligent filtering.</p></div></div></section><div class="abandonment-counter"><span class="counter-value">9480 members registered</span></div><div class="abandonment-browser-notice">Please enable JavaScript and Adobe Flash to view this page</div><div class="abandonment-badge">Last updated: 04/04/2011</div><div class="abandonment-badge">Copyright 2012 — All rights reserved</div><div class="abandonment-badge">W3C XHTML 1.0 Compliant</div>"`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: budget-airline with region "de-de" 1`] = `
+[
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Partner: Altavista",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "Visitors: 47755",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "Best viewed in Internet Explorer 5.0 at 800x600",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: budget-airline with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: budget-airline with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: budget-airline with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: e-commerce-shop with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: e-commerce-shop with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: e-commerce-shop with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: era "alt-timeline" with seed "snap-era-test" 1`] = `
+[
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Rendered via subether relay v0.4",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: era "early-web" with seed "snap-era-test" 1`] = `
+[
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Banner image unavailable]",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 09/24/1999",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: era "portal-era" with seed "snap-era-test" 1`] = `
+[
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: era "startup-minimalism" with seed "snap-era-test" 1`] = `
+[
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "expired-ssl-notice",
+    "label": "Security certificate expired on 09/04/2017",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "expired-ssl-notice",
+    "label": "Warning: This connection is not secure",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: era "web2" with seed "snap-era-test" 1`] = `
+[
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "RSS Feed (0 subscribers)",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: forum-community with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: forum-community with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: forum-community with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: media-startup with region "de-de" 1`] = `
+[
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Partner: Altavista",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "Visitors: 47755",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "Best viewed in Internet Explorer 5.0 at 800x600",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: media-startup with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: media-startup with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: media-startup with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: mmorpg-guild with region "de-de" 1`] = `
+[
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Partner: Altavista",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "Visitors: 47755",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "Best viewed in Internet Explorer 5.0 at 800x600",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: mmorpg-guild with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: mmorpg-guild with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: mmorpg-guild with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: os-vendor with region "de-de" 1`] = `
+[
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Partner: Altavista",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "Visitors: 47755",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "Best viewed in Internet Explorer 5.0 at 800x600",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: os-vendor with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: os-vendor with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: os-vendor with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: personal-homepage with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: personal-homepage with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: personal-homepage with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: webmail-provider with seed "snap-alpha" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Hosted on Geocities",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 11/05/1996",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Made with Macromedia Dreamweaver",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: webmail-provider with seed "snap-beta" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "stale-news-date",
+    "label": "Last updated: 08/06/1998",
+  },
+  {
+    "cssClass": "abandonment-browser-notice",
+    "id": "deprecated-browser-notice",
+    "label": "This page requires Shockwave Flash",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+]
+`;
+
+exports[`US-012 · Abandonment details — snapshot stability > snapshot: webmail-provider with seed "snap-gamma" 1`] = `
+[
+  {
+    "cssClass": "abandonment-badge",
+    "id": "broken-badge",
+    "label": "Valid HTML 4.01 Transitional",
+  },
+  {
+    "cssClass": "abandonment-badge",
+    "id": "outdated-copyright",
+    "label": "Copyright 1999 — All rights reserved",
+  },
+  {
+    "cssClass": "abandonment-counter",
+    "id": "dead-counter",
+    "label": "You are visitor #43497",
+  },
+  {
+    "cssClass": "abandonment-partner-logos",
+    "id": "defunct-partner-logo",
+    "label": "Powered by Sun Microsystems",
+  },
+  {
+    "cssClass": "abandonment-missing-asset",
+    "id": "missing-asset-placeholder",
+    "label": "[Logo failed to load]",
+  },
+]
+`;
