@@ -312,15 +312,14 @@
         "Layouts may remain retro but must remain functional"
       ],
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-013",
         "US-014",
         "US-015"
       ],
       "notes": "Important for social traffic.",
-      "status": "in_progress",
-      "claimed_by": "worker-3"
+      "status": "pass"
     },
     {
       "id": "US-017",

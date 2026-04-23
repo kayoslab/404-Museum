@@ -28,3 +28,5 @@
 
 ## US-012: Add abandoned and broken historical details
 
+## US-016: Add responsive mobile support
+
