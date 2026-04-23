@@ -3,15 +3,18 @@ import './styles/shell.css';
 import './styles/info-button.css';
 import './styles/info-modal.css';
 import './styles/share-button.css';
+import './styles/refresh-button.css';
 import './styles/toast.css';
 import './styles/generated-site.css';
 import { createInfoButton } from './ui/info-button';
 import { createInfoModal } from './ui/info-modal';
 import { createShareButton } from './ui/share-button';
+import { createRefreshButton } from './ui/refresh-button';
 import { createToast } from './ui/toast';
 import { performShare } from './ui/share-action';
 import { readSeedFromUrl, writeSeedToUrl } from './domain/url-seed';
 import { resolveSeed } from './domain/resolve-seed';
+import { generateSeed } from './domain/seed';
 import { generateSite } from './domain/generate-site';
 import { renderHomepage } from './render/render-homepage';
 
@@ -37,6 +40,14 @@ if (app) {
       } else if (!result.ok) {
         toast.show('Could not share link', 'error');
       }
+    });
+
+    const refreshButton = createRefreshButton(overlayUi);
+    refreshButton.addEventListener('click', () => {
+      const newSeed = generateSeed();
+      writeSeedToUrl(newSeed);
+      const site = generateSite(newSeed);
+      renderHomepage(generatedSiteContainer, site);
     });
   }
 

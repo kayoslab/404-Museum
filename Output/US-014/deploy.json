@@ -1,0 +1,1 @@
+{"decision":"pass","gates_checked":["lint","typecheck","tests"],"failures":[],"notes":"All 3 quality gates pass. Lint: clean. Typecheck: clean. Tests: 472/474 pass; the 2 failures are in us-001-workspace-init.test.ts (pre-existing, unrelated to US-014 — they check for dist/ build artifacts). All 25 US-014 tests pass including build verification."}
