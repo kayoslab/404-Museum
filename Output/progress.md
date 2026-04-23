@@ -8,3 +8,5 @@
 
 ## US-004: Implement deterministic seeded random utility
 
+## US-013: Create floating info button
+

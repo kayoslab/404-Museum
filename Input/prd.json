@@ -97,7 +97,8 @@
         "US-004"
       ],
       "notes": "Foundation for reproducibility, refresh, and sharing.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-1"
     },
     {
       "id": "US-006",
@@ -137,7 +138,8 @@
         "US-006"
       ],
       "notes": "High impact on realism.",
-      "status": "available"
+      "status": "in_progress",
+      "claimed_by": "worker-3"
     },
     {
       "id": "US-008",
@@ -252,13 +254,12 @@
         "Panel can be closed"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "depends_on": [
         "US-003"
       ],
       "notes": "Matches prior cr0ss.org projects.",
-      "status": "in_progress",
-      "claimed_by": "worker-2"
+      "status": "pass"
     },
     {
       "id": "US-014",
